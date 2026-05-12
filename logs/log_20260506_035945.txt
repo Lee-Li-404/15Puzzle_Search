@@ -1,0 +1,23 @@
+[Bootstrap] island=0 v=0 score=1.0000 gen=1.00 cost=1.00 valid=True -> generated_programs/generated_program_0_0.py
+[Bootstrap] island=0 v=1 score=1.0000 gen=1.00 cost=1.00 valid=True -> generated_programs/generated_program_0_1.py
+[Bootstrap] island=1 v=0 score=1.0000 gen=1.00 cost=1.00 valid=True -> generated_programs/generated_program_1_0.py
+[Bootstrap] island=1 v=1 score=1.0000 gen=1.00 cost=1.00 valid=True -> generated_programs/generated_program_1_1.py
+[Bootstrap] island=2 v=0 score=1.0000 gen=1.00 cost=1.00 valid=True -> generated_programs/generated_program_2_0.py
+[Bootstrap] island=2 v=1 score=1.0000 gen=1.00 cost=1.00 valid=True -> generated_programs/generated_program_2_1.py
+[Bootstrap] island=3 v=0 score=1.0000 gen=1.00 cost=1.00 valid=True -> generated_programs/generated_program_3_0.py
+[Bootstrap] island=3 v=1 score=1.0000 gen=1.00 cost=1.00 valid=True -> generated_programs/generated_program_3_1.py
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[WARN] strict JSON parse failed: Unterminated string starting at: line 2 column 11 (char 12)
+[WARN] no def heuristic found
+[WARN] no usable code found in model text head: {
+  "code": "from fifteen_state_class import State\n\ndef heuristic(s: State) -> int:\n    \"\"\"Improved heuristic combining Manhattan distance with tile linearity.\n\n    This heuristic aims to redu...
+[WARN] model error: invalid payload
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[WARN] eval failed: No module named 'generated_programs.generated_program_0_4'
+[Island 1 | v2] gen=999.0000 cost=999.0000 valid=False
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}

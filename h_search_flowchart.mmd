@@ -1,0 +1,59 @@
+flowchart TD
+    A([Start]) --> B[Load GEMINI_API_KEY from .env]
+    B --> C{Key found?}
+    C -- No --> D([sys.exit])
+    C -- Yes --> E[prepare_folder\nDelete old files in generated_programs\nKeep seed programs 0 and 1]
+    E --> F[Init Gemini client]
+    F --> G[Init Logger to logs/log_TIMESTAMP.txt]
+    G --> H[bootstrap_islands]
+
+    subgraph BOOT[Bootstrap - for each island i]
+        H --> H1[Read generated_program_0 and _1]
+        H1 --> H2[write_code for each\n island i with generated_program_i_0 and _1]
+    end
+
+    H2 --> LOOP([Round r = 0 to TOTAL_ROUNDS-1])
+    LOOP --> GEN
+
+    subgraph GEN[Per-Island Generation - all islands run in parallel]
+        GA[Pick examples for the prompt\nBest heuristic on this island as the target to improve\nWorst heuristic as a contrast example\nA few random ones for diversity] --> GB
+        GB[build_best_shot_prompt\nhigh + low + up to 3 random\n+ last 2 prev heuristics] --> GC
+        GC[model_generate_async\n Run Gemini API up to 5 retries\ngemini-2.5-pro / flash / flash-lite\nParse JSON to extract heuristic file] --> GD
+        GD{Valid code\nreturned?}
+        GD -- Yes --> GG[write_code\ngenerated_program_island_cnt.py]
+        GD -- No --> GF[Write failed stub\nscore = gen = cost = 999\nis_valid = False]
+        GG --> GI[ split_train_test\nfixed seed -> train15.txt and test85.txt]
+        GI --> GI2[ evaluate_astar\nrun A* on train15.txt\ncompute generated_ratio and cost_ratio]
+        GI2 --> GH{Timeout\nor crash?}
+        GH -- Yes --> GF
+        GH -- No --> GJ{cost_ratio\nless than user-set COST_BOUND?}
+        GJ -- Yes --> GK[is_valid = True\nscore = generated_ratio]
+        GJ -- No --> GL[is_valid = False\nscore = generated_ratio]
+        GK --> GM[Append to island.results\nisland.cnt += 1]
+        GL --> GM
+        GF --> GM
+    end
+
+    GEN --> R4{r+1 mod\nCHECKPOINT_INTERVAL = 0? i.e. Is current round cull and refill round?}
+    R4 -- No --> R5
+    R4 -- Yes --> CULL
+
+    subgraph CULL[cull_and_refill]
+        CA[Rank islands by best valid score] --> CB
+        CB[Top half = Survivors\nBottom half = Culled] --> CC
+        CC[Collect best code from each survivor] --> CD
+        CD[For each culled island\nWipe history: st.results = empty list\nInject top ELITE_INJECT_COUNT elites\nst.cnt keeps incrementing - no reset]
+    end
+
+    CULL --> R5b[print_summary post-cull state]
+    R5b --> R5
+
+    R5{More rounds?}
+    R5 -- Yes --> LOOP
+    R5 -- No --> F1
+
+    subgraph FINAL[Final Reporting]
+        F1[Per-island best valid heuristic] --> F2
+        F2[Global best across all islands for training set] --> F3
+        F3[print_final_table BEST_HISTORY]
+    end

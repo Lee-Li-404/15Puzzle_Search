@@ -1,0 +1,144 @@
+[Bootstrap] island=0 v=0 score=1.0000 exp=1.00 cost=1.00 valid=True -> generated_programs/generated_program_0_0.py
+[Bootstrap] island=0 v=1 score=1.0000 exp=1.00 cost=1.00 valid=True -> generated_programs/generated_program_0_1.py
+[Bootstrap] island=1 v=0 score=1.0000 exp=1.00 cost=1.00 valid=True -> generated_programs/generated_program_1_0.py
+[Bootstrap] island=1 v=1 score=1.0000 exp=1.00 cost=1.00 valid=True -> generated_programs/generated_program_1_1.py
+[Bootstrap] island=2 v=0 score=1.0000 exp=1.00 cost=1.00 valid=True -> generated_programs/generated_program_2_0.py
+[Bootstrap] island=2 v=1 score=1.0000 exp=1.00 cost=1.00 valid=True -> generated_programs/generated_program_2_1.py
+[Bootstrap] island=3 v=0 score=1.0000 exp=1.00 cost=1.00 valid=True -> generated_programs/generated_program_3_0.py
+[Bootstrap] island=3 v=1 score=1.0000 exp=1.00 cost=1.00 valid=True -> generated_programs/generated_program_3_1.py
+[WARN] island 0 v2 gen failed: model_generate() takes 1 positional argument but 2 were given
+[Island 0 | v2] exp=999.0000 cost=999.0000 valid=False
+[WARN] island 1 v2 gen failed: model_generate() takes 1 positional argument but 2 were given
+[Island 1 | v2] exp=999.0000 cost=999.0000 valid=False
+[WARN] island 2 v2 gen failed: model_generate() takes 1 positional argument but 2 were given
+[Island 2 | v2] exp=999.0000 cost=999.0000 valid=False
+[WARN] island 3 v2 gen failed: model_generate() takes 1 positional argument but 2 were given
+[Island 3 | v2] exp=999.0000 cost=999.0000 valid=False
+
+===== ROUND 1 SUMMARY =====
+Island 0 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=3 | valid=2 | invalid=1 | valid_rate=0.67 | mean_cost=333.6666666666667
+Island 1 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=3 | valid=2 | invalid=1 | valid_rate=0.67 | mean_cost=333.6666666666667
+Island 2 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=3 | valid=2 | invalid=1 | valid_rate=0.67 | mean_cost=333.6666666666667
+Island 3 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=3 | valid=2 | invalid=1 | valid_rate=0.67 | mean_cost=333.6666666666667
+GLOBAL_BEST: island=0 v=0 score=1.0000 | exp=1.000 cost=1.000 | valid=True
+[WARN] checkpoint eval failed: No module named 'funsearch_components'
+[WARN] no def heuristic found
+[WARN] no def heuristic found
+[WARN] no def heuristic found
+[WARN] no def heuristic found
+[WARN] no def heuristic found
+[WARN] no def heuristic found
+[WARN] no def heuristic found
+[WARN] no def heuristic found
+[WARN] island 0 v3 gen failed: model_generate() takes 1 positional argument but 2 were given
+[Island 0 | v3] exp=999.0000 cost=999.0000 valid=False
+[WARN] island 1 v3 gen failed: model_generate() takes 1 positional argument but 2 were given
+[Island 1 | v3] exp=999.0000 cost=999.0000 valid=False
+[WARN] island 2 v3 gen failed: model_generate() takes 1 positional argument but 2 were given
+[Island 2 | v3] exp=999.0000 cost=999.0000 valid=False
+[WARN] island 3 v3 gen failed: model_generate() takes 1 positional argument but 2 were given
+[Island 3 | v3] exp=999.0000 cost=999.0000 valid=False
+
+===== ROUND 2 SUMMARY =====
+Island 0 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=4 | valid=2 | invalid=2 | valid_rate=0.50 | mean_cost=500.0
+Island 1 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=4 | valid=2 | invalid=2 | valid_rate=0.50 | mean_cost=500.0
+Island 2 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=4 | valid=2 | invalid=2 | valid_rate=0.50 | mean_cost=500.0
+Island 3 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=4 | valid=2 | invalid=2 | valid_rate=0.50 | mean_cost=500.0
+GLOBAL_BEST: island=0 v=0 score=1.0000 | exp=1.000 cost=1.000 | valid=True
+[WARN] checkpoint eval failed: No module named 'funsearch_components'
+
+=== CULL ===
+Survivors: [0, 1]
+Culled: [2, 3]
+[Inject] island 2
+   Injected elite with score=1.0000, cost=1.000, valid=True
+   Injected elite with score=1.0000, cost=1.000, valid=True
+[Inject] island 3
+   Injected elite with score=1.0000, cost=1.000, valid=True
+   Injected elite with score=1.0000, cost=1.000, valid=True
+
+===== ROUND 2 SUMMARY =====
+Island 0 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=4 | valid=2 | invalid=2 | valid_rate=0.50 | mean_cost=500.0
+Island 1 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=4 | valid=2 | invalid=2 | valid_rate=0.50 | mean_cost=500.0
+Island 2 | best=1.0000 (exp=1.0000, cost=1.0000) | last=1.0000 | Δ=+0.0000 | n=6 | valid=4 | invalid=2 | valid_rate=0.67 | mean_cost=333.6666666666667
+Island 3 | best=1.0000 (exp=1.0000, cost=1.0000) | last=1.0000 | Δ=+0.0000 | n=6 | valid=4 | invalid=2 | valid_rate=0.67 | mean_cost=333.6666666666667
+GLOBAL_BEST: island=0 v=0 score=1.0000 | exp=1.000 cost=1.000 | valid=True
+[WARN] no def heuristic found
+[WARN] no def heuristic found
+[WARN] no def heuristic found
+[WARN] no def heuristic found
+[WARN] no def heuristic found
+[WARN] no def heuristic found
+[WARN] island 0 v4 gen failed: model_generate() takes 1 positional argument but 2 were given
+[Island 0 | v4] exp=999.0000 cost=999.0000 valid=False
+[WARN] island 1 v4 gen failed: model_generate() takes 1 positional argument but 2 were given
+[Island 1 | v4] exp=999.0000 cost=999.0000 valid=False
+[WARN] island 2 v6 gen failed: model_generate() takes 1 positional argument but 2 were given
+[Island 2 | v6] exp=999.0000 cost=999.0000 valid=False
+[WARN] island 3 v6 gen failed: model_generate() takes 1 positional argument but 2 were given
+[Island 3 | v6] exp=999.0000 cost=999.0000 valid=False
+
+===== ROUND 3 SUMMARY =====
+Island 0 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=5 | valid=2 | invalid=3 | valid_rate=0.40 | mean_cost=599.8
+Island 1 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=5 | valid=2 | invalid=3 | valid_rate=0.40 | mean_cost=599.8
+Island 2 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=7 | valid=4 | invalid=3 | valid_rate=0.57 | mean_cost=428.7142857142857
+Island 3 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=7 | valid=4 | invalid=3 | valid_rate=0.57 | mean_cost=428.7142857142857
+GLOBAL_BEST: island=0 v=0 score=1.0000 | exp=1.000 cost=1.000 | valid=True
+[WARN] checkpoint eval failed: No module named 'funsearch_components'
+[WARN] no def heuristic found
+[WARN] no def heuristic found
+[WARN] no def heuristic found
+[WARN] no def heuristic found
+[WARN] no def heuristic found
+[WARN] no def heuristic found
+[WARN] no def heuristic found
+[WARN] no def heuristic found
+[WARN] no def heuristic found
+[WARN] no def heuristic found
+[WARN] island 0 v5 gen failed: model_generate() takes 1 positional argument but 2 were given
+[Island 0 | v5] exp=999.0000 cost=999.0000 valid=False
+[WARN] island 1 v5 gen failed: model_generate() takes 1 positional argument but 2 were given
+[Island 1 | v5] exp=999.0000 cost=999.0000 valid=False
+[WARN] island 2 v7 gen failed: model_generate() takes 1 positional argument but 2 were given
+[Island 2 | v7] exp=999.0000 cost=999.0000 valid=False
+[WARN] island 3 v7 gen failed: model_generate() takes 1 positional argument but 2 were given
+[Island 3 | v7] exp=999.0000 cost=999.0000 valid=False
+
+===== ROUND 4 SUMMARY =====
+Island 0 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=6 | valid=2 | invalid=4 | valid_rate=0.33 | mean_cost=666.3333333333334
+Island 1 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=6 | valid=2 | invalid=4 | valid_rate=0.33 | mean_cost=666.3333333333334
+Island 2 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=8 | valid=4 | invalid=4 | valid_rate=0.50 | mean_cost=500.0
+Island 3 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=8 | valid=4 | invalid=4 | valid_rate=0.50 | mean_cost=500.0
+GLOBAL_BEST: island=0 v=0 score=1.0000 | exp=1.000 cost=1.000 | valid=True
+[WARN] checkpoint eval failed: No module named 'funsearch_components'
+
+=== CULL ===
+Survivors: [0, 1]
+Culled: [2, 3]
+[Inject] island 2
+   Injected elite with score=1.0000, cost=1.000, valid=True
+   Injected elite with score=1.0000, cost=1.000, valid=True
+[Inject] island 3
+   Injected elite with score=1.0000, cost=1.000, valid=True
+   Injected elite with score=1.0000, cost=1.000, valid=True
+
+===== ROUND 4 SUMMARY =====
+Island 0 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=6 | valid=2 | invalid=4 | valid_rate=0.33 | mean_cost=666.3333333333334
+Island 1 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=6 | valid=2 | invalid=4 | valid_rate=0.33 | mean_cost=666.3333333333334
+Island 2 | best=1.0000 (exp=1.0000, cost=1.0000) | last=1.0000 | Δ=+0.0000 | n=10 | valid=6 | invalid=4 | valid_rate=0.60 | mean_cost=400.2
+Island 3 | best=1.0000 (exp=1.0000, cost=1.0000) | last=1.0000 | Δ=+0.0000 | n=10 | valid=6 | invalid=4 | valid_rate=0.60 | mean_cost=400.2
+GLOBAL_BEST: island=0 v=0 score=1.0000 | exp=1.000 cost=1.000 | valid=True
+
+=== Final Results ===
+Island 0: v0 score=1.0000 (valid, cost ≤ 2.1)
+Island 1: v0 score=1.0000 (valid, cost ≤ 2.1)
+Island 2: v0 score=1.0000 (valid, cost ≤ 2.1)
+Island 3: v0 score=1.0000 (valid, cost ≤ 2.1)
+
+GLOBAL BEST: island=0 v=0 score=1.0000 | exp=1.000 cost=1.000 | valid=True
+
+=== BEST CHECKPOINT HISTORY ===
+No valid heuristic was found under COST_BOUND, so no checkpoints to report.
+[PLOT] saved best_progress_generated.png and best_progress_cost.png
+[CSV] saved best_progress.csv
+[CLEANUP] Final GC cycle completed safely.

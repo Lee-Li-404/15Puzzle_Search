@@ -1,0 +1,75 @@
+[Bootstrap] island=0 v=0 score=1.0000 exp=1.00 cost=1.00 valid=True -> generated_programs/generated_program_0_0.py
+[Bootstrap] island=0 v=1 score=1.0000 exp=1.00 cost=1.00 valid=True -> generated_programs/generated_program_0_1.py
+[Bootstrap] island=1 v=0 score=1.0000 exp=1.00 cost=1.00 valid=True -> generated_programs/generated_program_1_0.py
+[Bootstrap] island=1 v=1 score=1.0000 exp=1.00 cost=1.00 valid=True -> generated_programs/generated_program_1_1.py
+[Bootstrap] island=2 v=0 score=1.0000 exp=1.00 cost=1.00 valid=True -> generated_programs/generated_program_2_0.py
+[Bootstrap] island=2 v=1 score=1.0000 exp=1.00 cost=1.00 valid=True -> generated_programs/generated_program_2_1.py
+[Bootstrap] island=3 v=0 score=1.0000 exp=1.00 cost=1.00 valid=True -> generated_programs/generated_program_3_0.py
+[Bootstrap] island=3 v=1 score=1.0000 exp=1.00 cost=1.00 valid=True -> generated_programs/generated_program_3_1.py
+[WARN] strict JSON parse failed: Expecting ',' delimiter: line 2 column 3212 (char 3213)
+[WARN] unparsable code skipped: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 2)
+[WARN] no usable code found in model text head: {
+  "code": "from fifteen_state_class import State\n\ndef heuristic(s: State) -> int:\n    # Define constants inside the function as required.\n    # Goal configuration: 0 is blank, top-left.\n    # 0...
+[WARN] model error: invalid payload
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[FATAL] evaluate_file crashed: unsupported operand type(s) for +: 'float' and 'str'
+[Island 3 | v2] exp=999.0000 cost=999.0000 valid=False
+[FATAL] evaluate_file crashed: unsupported operand type(s) for +: 'float' and 'str'
+[Island 0 | v2] exp=999.0000 cost=999.0000 valid=False
+[WARN] strict JSON parse failed: Expecting ',' delimiter: line 1 column 2464 (char 2463)
+[WARN] unparsable code skipped: unexpected character after line continuation character (<unknown>, line 1)
+[WARN] no usable code found in model text head: {"code": "from fifteen_state_class import State\n\ndef heuristic(s: State) -> int:\n    # Define MANHATTAN_TABLE inside the function\n    MANHATTAN_TABLE = [[0 for _ in range(16)] for _ in range(16)]\...
+[WARN] model error: invalid payload
+[FATAL] evaluate_file crashed: unsupported operand type(s) for +: 'float' and 'str'
+[Island 1 | v2] exp=999.0000 cost=999.0000 valid=False
+[FATAL] evaluate_file crashed: unsupported operand type(s) for +: 'float' and 'str'
+[Island 2 | v2] exp=999.0000 cost=999.0000 valid=False
+
+===== ROUND 1 SUMMARY =====
+Island 0 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=3 | valid=2 | invalid=1 | valid_rate=0.67 | mean_cost=333.6666666666667
+Island 1 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=3 | valid=2 | invalid=1 | valid_rate=0.67 | mean_cost=333.6666666666667
+Island 2 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=3 | valid=2 | invalid=1 | valid_rate=0.67 | mean_cost=333.6666666666667
+Island 3 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=3 | valid=2 | invalid=1 | valid_rate=0.67 | mean_cost=333.6666666666667
+GLOBAL_BEST: island=0 v=0 score=1.0000 | exp=1.000 cost=1.000 | valid=True
+[WARN] checkpoint eval failed: No module named 'funsearch_components'
+[FATAL] evaluate_file crashed: unsupported operand type(s) for +: 'float' and 'str'
+[Island 0 | v3] exp=999.0000 cost=999.0000 valid=False
+[FATAL] evaluate_file crashed: unsupported operand type(s) for +: 'float' and 'str'
+[Island 2 | v3] exp=999.0000 cost=999.0000 valid=False
+[FATAL] evaluate_file crashed: unsupported operand type(s) for +: 'float' and 'str'
+[Island 3 | v3] exp=999.0000 cost=999.0000 valid=False
+[FATAL] evaluate_file crashed: unsupported operand type(s) for +: 'float' and 'str'
+[Island 1 | v3] exp=999.0000 cost=999.0000 valid=False
+
+===== ROUND 2 SUMMARY =====
+Island 0 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=4 | valid=2 | invalid=2 | valid_rate=0.50 | mean_cost=500.0
+Island 1 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=4 | valid=2 | invalid=2 | valid_rate=0.50 | mean_cost=500.0
+Island 2 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=4 | valid=2 | invalid=2 | valid_rate=0.50 | mean_cost=500.0
+Island 3 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=4 | valid=2 | invalid=2 | valid_rate=0.50 | mean_cost=500.0
+GLOBAL_BEST: island=0 v=0 score=1.0000 | exp=1.000 cost=1.000 | valid=True
+[WARN] checkpoint eval failed: No module named 'funsearch_components'
+
+=== CULL ===
+Survivors: [0, 1]
+Culled: [2, 3]
+[Inject] island 2
+   Injected elite with score=1.0000, cost=1.000, valid=True
+   Injected elite with score=1.0000, cost=1.000, valid=True
+[Inject] island 3
+   Injected elite with score=1.0000, cost=1.000, valid=True
+   Injected elite with score=1.0000, cost=1.000, valid=True
+
+===== ROUND 2 SUMMARY =====
+Island 0 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=4 | valid=2 | invalid=2 | valid_rate=0.50 | mean_cost=500.0
+Island 1 | best=1.0000 (exp=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=4 | valid=2 | invalid=2 | valid_rate=0.50 | mean_cost=500.0
+Island 2 | best=1.0000 (exp=1.0000, cost=1.0000) | last=1.0000 | Δ=+0.0000 | n=6 | valid=4 | invalid=2 | valid_rate=0.67 | mean_cost=333.6666666666667
+Island 3 | best=1.0000 (exp=1.0000, cost=1.0000) | last=1.0000 | Δ=+0.0000 | n=6 | valid=4 | invalid=2 | valid_rate=0.67 | mean_cost=333.6666666666667
+GLOBAL_BEST: island=0 v=0 score=1.0000 | exp=1.000 cost=1.000 | valid=True
+[FATAL] evaluate_file crashed: unsupported operand type(s) for +: 'float' and 'str'
+[Island 1 | v4] exp=999.0000 cost=999.0000 valid=False
+[FATAL] evaluate_file crashed: unsupported operand type(s) for +: 'float' and 'str'
+[Island 0 | v4] exp=999.0000 cost=999.0000 valid=False
+[FATAL] evaluate_file crashed: unsupported operand type(s) for +: 'float' and 'str'
+[Island 3 | v6] exp=999.0000 cost=999.0000 valid=False

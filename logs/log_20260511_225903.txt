@@ -1,0 +1,1559 @@
+[Bootstrap] island=0 v=0 score=1.0000 gen=1.00 cost=1.00 valid=True -> generated_programs/generated_program_0_0.py
+[Bootstrap] island=0 v=1 score=1.0000 gen=1.00 cost=1.00 valid=True -> generated_programs/generated_program_0_1.py
+[Bootstrap] island=1 v=0 score=1.0000 gen=1.00 cost=1.00 valid=True -> generated_programs/generated_program_1_0.py
+[Bootstrap] island=1 v=1 score=1.0000 gen=1.00 cost=1.00 valid=True -> generated_programs/generated_program_1_1.py
+[Bootstrap] island=2 v=0 score=1.0000 gen=1.00 cost=1.00 valid=True -> generated_programs/generated_program_2_0.py
+[Bootstrap] island=2 v=1 score=1.0000 gen=1.00 cost=1.00 valid=True -> generated_programs/generated_program_2_1.py
+[Bootstrap] island=3 v=0 score=1.0000 gen=1.00 cost=1.00 valid=True -> generated_programs/generated_program_3_0.py
+[Bootstrap] island=3 v=1 score=1.0000 gen=1.00 cost=1.00 valid=True -> generated_programs/generated_program_3_1.py
+[Bootstrap] island=4 v=0 score=1.0000 gen=1.00 cost=1.00 valid=True -> generated_programs/generated_program_4_0.py
+[Bootstrap] island=4 v=1 score=1.0000 gen=1.00 cost=1.00 valid=True -> generated_programs/generated_program_4_1.py
+[Bootstrap] island=5 v=0 score=1.0000 gen=1.00 cost=1.00 valid=True -> generated_programs/generated_program_5_0.py
+[Bootstrap] island=5 v=1 score=1.0000 gen=1.00 cost=1.00 valid=True -> generated_programs/generated_program_5_1.py
+[Bootstrap] island=6 v=0 score=1.0000 gen=1.00 cost=1.00 valid=True -> generated_programs/generated_program_6_0.py
+[Bootstrap] island=6 v=1 score=1.0000 gen=1.00 cost=1.00 valid=True -> generated_programs/generated_program_6_1.py
+[Bootstrap] island=7 v=0 score=1.0000 gen=1.00 cost=1.00 valid=True -> generated_programs/generated_program_7_0.py
+[Bootstrap] island=7 v=1 score=1.0000 gen=1.00 cost=1.00 valid=True -> generated_programs/generated_program_7_1.py
+[WARN] strict JSON parse failed: Unterminated string starting at: line 2 column 11 (char 12)
+[WARN] unparsable code skipped: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 2)
+[WARN] no usable code found in model text head: {
+  "code": "from fifteen_state_class import State\n\ndef heuristic(s: State) -> int:\n    # This heuristic combines Manhattan distance with a penalty for tiles out of their correct row or column.\n  ...
+[WARN] model error: invalid payload
+[WARN] strict JSON parse failed: Unterminated string starting at: line 2 column 11 (char 12)
+[WARN] no def heuristic found
+[WARN] no usable code found in model text head: {
+  "code": "from fifteen_state_class import State\n\ndef heuristic(s: State) -> int:\n    \"\"\"\n    Calculates the Manhattan Distance heuristic combined with Linear Conflicts.\n    This heuristic i...
+[WARN] model error: invalid payload
+[WARN] strict JSON parse failed: Unterminated string starting at: line 2 column 11 (char 12)
+[WARN] no def heuristic found
+[WARN] no usable code found in model text head: {
+  "code": "from fifteen_state_class import State\n\ndef heuristic(s: State) -> int:\n    \"\"\"A heuristic that combines Manhattan distance with a penalty for tiles in the wrong quadrant.\n    This ...
+[WARN] model error: invalid payload
+[WARN] strict JSON parse failed: Unterminated string starting at: line 2 column 11 (char 12)
+[WARN] no def heuristic found
+[WARN] no usable code found in model text head: {
+  "code": "from fifteen_state_class import State\n\ndef heuristic(s: State) -> int:\n    \"\"\"\n    A weighted A* heuristic combining Manhattan distance and linear conflicts.\n    - Manhattan Dista...
+[WARN] model error: invalid payload
+[EVAL] generated=0.0033 cost=1.2187 -> VALID
+[Island 2 | v2] gen=0.0033 cost=1.2187 valid=True
+[EVAL] generated=0.0033 cost=1.2187 -> VALID
+[Island 4 | v2] gen=0.0033 cost=1.2187 valid=True
+[EVAL] generated=0.0047 cost=1.1429 -> VALID
+[Island 0 | v2] gen=0.0047 cost=1.1429 valid=True
+[EVAL] generated=0.0035 cost=1.2500 -> VALID
+[Island 5 | v2] gen=0.0035 cost=1.2500 valid=True
+[EVAL] generated=0.0301 cost=1.0714 -> VALID
+[Island 6 | v2] gen=0.0301 cost=1.0714 valid=True
+[WARN] timeout evaluating generated_programs/generated_program_3_2.py
+[Island 3 | v2] gen=999.0000 cost=999.0000 valid=False
+[WARN] timeout evaluating generated_programs/generated_program_7_2.py
+[Island 7 | v2] gen=999.0000 cost=999.0000 valid=False
+[WARN] timeout evaluating generated_programs/generated_program_1_2.py
+[Island 1 | v2] gen=999.0000 cost=999.0000 valid=False
+
+===== ROUND 1 SUMMARY =====
+Island 0 | best=0.0047 (gen=0.0047, cost=1.1429) | last=0.0047 | Δ=+0.0000 | n=3 | valid=3 | invalid=0 | valid_rate=1.00 | mean_cost=1.047619047612245
+Island 1 | best=1.0000 (gen=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=3 | valid=2 | invalid=1 | valid_rate=0.67 | mean_cost=333.6666666666667
+Island 2 | best=0.0033 (gen=0.0033, cost=1.2187) | last=0.0033 | Δ=+0.0000 | n=3 | valid=3 | invalid=0 | valid_rate=1.00 | mean_cost=1.072916666660319
+Island 3 | best=1.0000 (gen=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=3 | valid=2 | invalid=1 | valid_rate=0.67 | mean_cost=333.6666666666667
+Island 4 | best=0.0033 (gen=0.0033, cost=1.2187) | last=0.0033 | Δ=+0.0000 | n=3 | valid=3 | invalid=0 | valid_rate=1.00 | mean_cost=1.072916666660319
+Island 5 | best=0.0035 (gen=0.0035, cost=1.2500) | last=0.0035 | Δ=+0.0000 | n=3 | valid=3 | invalid=0 | valid_rate=1.00 | mean_cost=1.083333333326823
+Island 6 | best=0.0301 (gen=0.0301, cost=1.0714) | last=0.0301 | Δ=+0.0000 | n=3 | valid=3 | invalid=0 | valid_rate=1.00 | mean_cost=1.0238095238031464
+Island 7 | best=1.0000 (gen=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=3 | valid=2 | invalid=1 | valid_rate=0.67 | mean_cost=333.6666666666667
+GLOBAL_BEST: island=2 v=2 score=0.0033 | gen=0.003 cost=1.219 | valid=True
+[CASE 1] cost=78, generated=2558, baseline_cost=64.0, baseline_generated=41124767.0
+          → cost_ratio=1.2187, generated_ratio=0.0001
+[CASE 2] cost=48, generated=1718, baseline_cost=42.0, baseline_generated=877023.0
+          → cost_ratio=1.1429, generated_ratio=0.0020
+[CASE 3] cost=61, generated=71809, baseline_cost=57.0, baseline_generated=1101072541.0
+          → cost_ratio=1.0702, generated_ratio=0.0001
+[CASE 4] cost=63, generated=28836, baseline_cost=59.0, baseline_generated=198758703.0
+          → cost_ratio=1.0678, generated_ratio=0.0001
+[CASE 5] cost=71, generated=134917, baseline_cost=61.0, baseline_generated=1957191378.0
+          → cost_ratio=1.1639, generated_ratio=0.0001
+[CASE 6] cost=62, generated=5186, baseline_cost=56.0, baseline_generated=26622863.0
+          → cost_ratio=1.1071, generated_ratio=0.0002
+[CASE 7] cost=65, generated=23749, baseline_cost=55.0, baseline_generated=15300442.0
+          → cost_ratio=1.1818, generated_ratio=0.0016
+[CASE 8] cost=48, generated=18749, baseline_cost=44.0, baseline_generated=8885972.0
+          → cost_ratio=1.0909, generated_ratio=0.0021
+[CASE 9] cost=44, generated=21860, baseline_cost=42.0, baseline_generated=17984051.0
+          → cost_ratio=1.0476, generated_ratio=0.0012
+[CASE 10] cost=48, generated=13817, baseline_cost=42.0, baseline_generated=540860.0
+          → cost_ratio=1.1429, generated_ratio=0.0255
+[CASE 11] cost=66, generated=3518, baseline_cost=56.0, baseline_generated=1897728.0
+          → cost_ratio=1.1786, generated_ratio=0.0019
+[CASE 12] cost=67, generated=13686, baseline_cost=57.0, baseline_generated=150346072.0
+          → cost_ratio=1.1754, generated_ratio=0.0001
+[CASE 13] cost=57, generated=118322, baseline_cost=55.0, baseline_generated=1199487996.0
+          → cost_ratio=1.0364, generated_ratio=0.0001
+[CASE 14] cost=60, generated=74733, baseline_cost=50.0, baseline_generated=8841527.0
+          → cost_ratio=1.2000, generated_ratio=0.0085
+[CASE 15] cost=57, generated=18065, baseline_cost=49.0, baseline_generated=3222276.0
+          → cost_ratio=1.1633, generated_ratio=0.0056
+[EVAL] finished 15 puzzles (skipped=0)
+[EVAL] avg_generated_ratio=0.0032681, max_cost_ratio=1.2187500
+[Summary] round=1 best=island 2 v2 train(gen=0.0033, cost=1.2187) test=SKIPPED
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[WARN] strict JSON parse failed: Expecting ',' delimiter: line 2 column 16394 (char 16395)
+[WARN] unparsable code skipped: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 2)
+[WARN] no usable code found in model text head: {
+  "code": "from fifteen_state_class import State\n\ndef heuristic(s: State) -> int:\n    \"\"\"Calculates a heuristic for the 15-puzzle using Manhattan distance.\n\n    This heuristic estimates the ...
+[WARN] model error: invalid payload
+[EVAL] generated=0.0030 cost=1.3673 -> VALID
+[Island 0 | v3] gen=0.0030 cost=1.3673 valid=True
+[EVAL] generated=0.0012 cost=1.5306 -> VALID
+[Island 2 | v3] gen=0.0012 cost=1.5306 valid=True
+[EVAL] generated=0.0040 cost=1.3673 -> VALID
+[Island 4 | v3] gen=0.0040 cost=1.3673 valid=True
+[EVAL] generated=0.0150 cost=1.1429 -> VALID
+[Island 6 | v3] gen=0.0150 cost=1.1429 valid=True
+[EVAL] generated=0.0043 cost=1.1429 -> VALID
+[Island 1 | v3] gen=0.0043 cost=1.1429 valid=True
+[EVAL] generated=0.0016 cost=1.5238 -> VALID
+[Island 5 | v3] gen=0.0016 cost=1.5238 valid=True
+[WARN] timeout evaluating generated_programs/generated_program_7_3.py
+[Island 7 | v3] gen=999.0000 cost=999.0000 valid=False
+[WARN] timeout evaluating generated_programs/generated_program_3_3.py
+[Island 3 | v3] gen=999.0000 cost=999.0000 valid=False
+
+===== ROUND 2 SUMMARY =====
+Island 0 | best=0.0030 (gen=0.0030, cost=1.3673) | last=0.0030 | Δ=+0.0000 | n=4 | valid=4 | invalid=0 | valid_rate=1.00 | mean_cost=1.127551020396085
+Island 1 | best=0.0043 (gen=0.0043, cost=1.1429) | last=0.0043 | Δ=+0.0000 | n=4 | valid=3 | invalid=1 | valid_rate=0.75 | mean_cost=250.5357142857092
+Island 2 | best=0.0012 (gen=0.0012, cost=1.5306) | last=0.0012 | Δ=+0.0000 | n=4 | valid=4 | invalid=0 | valid_rate=1.00 | mean_cost=1.1873405612119199
+Island 3 | best=1.0000 (gen=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=4 | valid=2 | invalid=2 | valid_rate=0.50 | mean_cost=500.0
+Island 4 | best=0.0033 (gen=0.0033, cost=1.2187) | last=0.0040 | Δ=+0.0007 | n=4 | valid=4 | invalid=0 | valid_rate=1.00 | mean_cost=1.1465242346821405
+Island 5 | best=0.0016 (gen=0.0016, cost=1.5238) | last=0.0016 | Δ=+0.0000 | n=4 | valid=4 | invalid=0 | valid_rate=1.00 | mean_cost=1.1934523809384279
+Island 6 | best=0.0150 (gen=0.0150, cost=1.1429) | last=0.0150 | Δ=+0.0000 | n=4 | valid=4 | invalid=0 | valid_rate=1.00 | mean_cost=1.0535714285598428
+Island 7 | best=1.0000 (gen=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=4 | valid=2 | invalid=2 | valid_rate=0.50 | mean_cost=500.0
+GLOBAL_BEST: island=2 v=3 score=0.0012 | gen=0.001 cost=1.531 | valid=True
+[CASE 1] cost=80, generated=1200, baseline_cost=64.0, baseline_generated=41124767.0
+          → cost_ratio=1.2500, generated_ratio=0.0000
+[CASE 2] cost=64, generated=8246, baseline_cost=42.0, baseline_generated=877023.0
+          → cost_ratio=1.5238, generated_ratio=0.0094
+[CASE 3] cost=71, generated=3895, baseline_cost=57.0, baseline_generated=1101072541.0
+          → cost_ratio=1.2456, generated_ratio=0.0000
+[CASE 4] cost=67, generated=1215, baseline_cost=59.0, baseline_generated=198758703.0
+          → cost_ratio=1.1356, generated_ratio=0.0000
+[CASE 5] cost=71, generated=1973, baseline_cost=61.0, baseline_generated=1957191378.0
+          → cost_ratio=1.1639, generated_ratio=0.0000
+[CASE 6] cost=64, generated=820, baseline_cost=56.0, baseline_generated=26622863.0
+          → cost_ratio=1.1429, generated_ratio=0.0000
+[CASE 7] cost=67, generated=4984, baseline_cost=55.0, baseline_generated=15300442.0
+          → cost_ratio=1.2182, generated_ratio=0.0003
+[CASE 8] cost=50, generated=8540, baseline_cost=44.0, baseline_generated=8885972.0
+          → cost_ratio=1.1364, generated_ratio=0.0010
+[CASE 9] cost=50, generated=4096, baseline_cost=42.0, baseline_generated=17984051.0
+          → cost_ratio=1.1905, generated_ratio=0.0002
+[CASE 10] cost=54, generated=2188, baseline_cost=42.0, baseline_generated=540860.0
+          → cost_ratio=1.2857, generated_ratio=0.0040
+[CASE 11] cost=68, generated=1372, baseline_cost=56.0, baseline_generated=1897728.0
+          → cost_ratio=1.2143, generated_ratio=0.0007
+[CASE 12] cost=77, generated=3405, baseline_cost=57.0, baseline_generated=150346072.0
+          → cost_ratio=1.3509, generated_ratio=0.0000
+[CASE 13] cost=67, generated=16121, baseline_cost=55.0, baseline_generated=1199487996.0
+          → cost_ratio=1.2182, generated_ratio=0.0000
+[CASE 14] cost=72, generated=9631, baseline_cost=50.0, baseline_generated=8841527.0
+          → cost_ratio=1.4400, generated_ratio=0.0011
+[CASE 15] cost=75, generated=4800, baseline_cost=49.0, baseline_generated=3222276.0
+          → cost_ratio=1.5306, generated_ratio=0.0015
+[EVAL] finished 15 puzzles (skipped=0)
+[EVAL] avg_generated_ratio=0.0012247, max_cost_ratio=1.5306122
+[Summary] round=2 best=island 2 v3 train(gen=0.0012, cost=1.5306) test=SKIPPED
+[EVAL] generated=0.0012 cost=1.5306 -> VALID
+[Island 0 | v4] gen=0.0012 cost=1.5306 valid=True
+[EVAL] generated=0.0027 cost=1.2187 -> VALID
+[Island 1 | v4] gen=0.0027 cost=1.2187 valid=True
+[EVAL] generated=0.0018 cost=1.7143 -> VALID
+[Island 2 | v4] gen=0.0018 cost=1.7143 valid=True
+[EVAL] generated=0.0033 cost=1.2187 -> VALID
+[Island 6 | v4] gen=0.0033 cost=1.2187 valid=True
+[EVAL] generated=0.0014 cost=1.6531 -> VALID
+[Island 5 | v4] gen=0.0014 cost=1.6531 valid=True
+[EVAL] generated=0.0035 cost=1.2857 -> VALID
+[Island 4 | v4] gen=0.0035 cost=1.2857 valid=True
+[WARN] timeout evaluating generated_programs/generated_program_3_4.py
+[Island 3 | v4] gen=999.0000 cost=999.0000 valid=False
+[WARN] timeout evaluating generated_programs/generated_program_7_4.py
+[Island 7 | v4] gen=999.0000 cost=999.0000 valid=False
+
+===== ROUND 3 SUMMARY =====
+Island 0 | best=0.0012 (gen=0.0012, cost=1.5306) | last=0.0012 | Δ=+0.0000 | n=5 | valid=5 | invalid=0 | valid_rate=1.00 | mean_cost=1.2081632652902123
+Island 1 | best=0.0027 (gen=0.0027, cost=1.2187) | last=0.0027 | Δ=+0.0000 | n=5 | valid=4 | invalid=1 | valid_rate=0.80 | mean_cost=200.67232142856352
+Island 2 | best=0.0012 (gen=0.0012, cost=1.5306) | last=0.0018 | Δ=+0.0006 | n=5 | valid=5 | invalid=0 | valid_rate=1.00 | mean_cost=1.2927295918185155
+Island 3 | best=1.0000 (gen=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=5 | valid=2 | invalid=3 | valid_rate=0.40 | mean_cost=599.8
+Island 4 | best=0.0033 (gen=0.0033, cost=1.2187) | last=0.0035 | Δ=+0.0003 | n=5 | valid=5 | invalid=0 | valid_rate=1.00 | mean_cost=1.1743622448824471
+Island 5 | best=0.0014 (gen=0.0014, cost=1.6531) | last=0.0014 | Δ=+0.0000 | n=5 | valid=5 | invalid=0 | valid_rate=1.00 | mean_cost=1.2853741496419544
+Island 6 | best=0.0033 (gen=0.0033, cost=1.2187) | last=0.0033 | Δ=+0.0000 | n=5 | valid=5 | invalid=0 | valid_rate=1.00 | mean_cost=1.0866071428440656
+Island 7 | best=1.0000 (gen=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=5 | valid=2 | invalid=3 | valid_rate=0.40 | mean_cost=599.8
+GLOBAL_BEST: island=0 v=4 score=0.0012 | gen=0.001 cost=1.531 | valid=True
+[CASE 1] cost=80, generated=1200, baseline_cost=64.0, baseline_generated=41124767.0
+          → cost_ratio=1.2500, generated_ratio=0.0000
+[CASE 2] cost=64, generated=8246, baseline_cost=42.0, baseline_generated=877023.0
+          → cost_ratio=1.5238, generated_ratio=0.0094
+[CASE 3] cost=71, generated=3895, baseline_cost=57.0, baseline_generated=1101072541.0
+          → cost_ratio=1.2456, generated_ratio=0.0000
+[CASE 4] cost=67, generated=1215, baseline_cost=59.0, baseline_generated=198758703.0
+          → cost_ratio=1.1356, generated_ratio=0.0000
+[CASE 5] cost=71, generated=1973, baseline_cost=61.0, baseline_generated=1957191378.0
+          → cost_ratio=1.1639, generated_ratio=0.0000
+[CASE 6] cost=64, generated=820, baseline_cost=56.0, baseline_generated=26622863.0
+          → cost_ratio=1.1429, generated_ratio=0.0000
+[CASE 7] cost=67, generated=4984, baseline_cost=55.0, baseline_generated=15300442.0
+          → cost_ratio=1.2182, generated_ratio=0.0003
+[CASE 8] cost=50, generated=8540, baseline_cost=44.0, baseline_generated=8885972.0
+          → cost_ratio=1.1364, generated_ratio=0.0010
+[CASE 9] cost=50, generated=4096, baseline_cost=42.0, baseline_generated=17984051.0
+          → cost_ratio=1.1905, generated_ratio=0.0002
+[CASE 10] cost=54, generated=2188, baseline_cost=42.0, baseline_generated=540860.0
+          → cost_ratio=1.2857, generated_ratio=0.0040
+[CASE 11] cost=68, generated=1372, baseline_cost=56.0, baseline_generated=1897728.0
+          → cost_ratio=1.2143, generated_ratio=0.0007
+[CASE 12] cost=77, generated=3405, baseline_cost=57.0, baseline_generated=150346072.0
+          → cost_ratio=1.3509, generated_ratio=0.0000
+[CASE 13] cost=67, generated=16121, baseline_cost=55.0, baseline_generated=1199487996.0
+          → cost_ratio=1.2182, generated_ratio=0.0000
+[CASE 14] cost=72, generated=9631, baseline_cost=50.0, baseline_generated=8841527.0
+          → cost_ratio=1.4400, generated_ratio=0.0011
+[CASE 15] cost=75, generated=4800, baseline_cost=49.0, baseline_generated=3222276.0
+          → cost_ratio=1.5306, generated_ratio=0.0015
+[EVAL] finished 15 puzzles (skipped=0)
+[EVAL] avg_generated_ratio=0.0012247, max_cost_ratio=1.5306122
+[Summary] round=3 best=island 0 v4 train(gen=0.0012, cost=1.5306) test=SKIPPED
+[EVAL] generated=0.0012 cost=1.7143 -> VALID
+[Island 2 | v5] gen=0.0012 cost=1.7143 valid=True
+[EVAL] generated=0.0030 cost=1.3673 -> VALID
+[Island 6 | v5] gen=0.0030 cost=1.3673 valid=True
+[EVAL] generated=0.0030 cost=1.3673 -> VALID
+[Island 1 | v5] gen=0.0030 cost=1.3673 valid=True
+[EVAL] generated=0.0013 cost=1.6557 -> VALID
+[Island 0 | v5] gen=0.0013 cost=1.6557 valid=True
+[EVAL] generated=0.0013 cost=1.6122 -> VALID
+[Island 5 | v5] gen=0.0013 cost=1.6122 valid=True
+[EVAL] generated=0.0070 cost=1.2857 -> VALID
+[Island 4 | v5] gen=0.0070 cost=1.2857 valid=True
+[WARN] timeout evaluating generated_programs/generated_program_3_5.py
+[Island 3 | v5] gen=999.0000 cost=999.0000 valid=False
+[WARN] timeout evaluating generated_programs/generated_program_7_5.py
+[Island 7 | v5] gen=999.0000 cost=999.0000 valid=False
+
+===== ROUND 4 SUMMARY =====
+Island 0 | best=0.0012 (gen=0.0012, cost=1.5306) | last=0.0013 | Δ=+0.0000 | n=6 | valid=6 | invalid=0 | valid_rate=1.00 | mean_cost=1.2827590052236586
+Island 1 | best=0.0027 (gen=0.0027, cost=1.2187) | last=0.0030 | Δ=+0.0003 | n=6 | valid=5 | invalid=1 | valid_rate=0.83 | mean_cost=167.45482568026088
+Island 2 | best=0.0012 (gen=0.0012, cost=1.7143) | last=0.0012 | Δ=+0.0000 | n=6 | valid=6 | invalid=0 | valid_rate=1.00 | mean_cost=1.362988945556246
+Island 3 | best=1.0000 (gen=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=6 | valid=2 | invalid=4 | valid_rate=0.33 | mean_cost=666.3333333333334
+Island 4 | best=0.0033 (gen=0.0033, cost=1.2187) | last=0.0070 | Δ=+0.0037 | n=6 | valid=6 | invalid=0 | valid_rate=1.00 | mean_cost=1.1929209183505938
+Island 5 | best=0.0013 (gen=0.0013, cost=1.6122) | last=0.0013 | Δ=+0.0000 | n=6 | valid=6 | invalid=0 | valid_rate=1.00 | mean_cost=1.339852607689342
+Island 6 | best=0.0030 (gen=0.0030, cost=1.3673) | last=0.0030 | Δ=+0.0000 | n=6 | valid=6 | invalid=0 | valid_rate=1.00 | mean_cost=1.1333971088279888
+Island 7 | best=1.0000 (gen=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=6 | valid=2 | invalid=4 | valid_rate=0.33 | mean_cost=666.3333333333334
+GLOBAL_BEST: island=2 v=5 score=0.0012 | gen=0.001 cost=1.714 | valid=True
+[CASE 1] cost=80, generated=1303, baseline_cost=64.0, baseline_generated=41124767.0
+          → cost_ratio=1.2500, generated_ratio=0.0000
+[CASE 2] cost=72, generated=8783, baseline_cost=42.0, baseline_generated=877023.0
+          → cost_ratio=1.7143, generated_ratio=0.0100
+[CASE 3] cost=71, generated=3378, baseline_cost=57.0, baseline_generated=1101072541.0
+          → cost_ratio=1.2456, generated_ratio=0.0000
+[CASE 4] cost=81, generated=5730, baseline_cost=59.0, baseline_generated=198758703.0
+          → cost_ratio=1.3729, generated_ratio=0.0000
+[CASE 5] cost=95, generated=14540, baseline_cost=61.0, baseline_generated=1957191378.0
+          → cost_ratio=1.5574, generated_ratio=0.0000
+[CASE 6] cost=64, generated=695, baseline_cost=56.0, baseline_generated=26622863.0
+          → cost_ratio=1.1429, generated_ratio=0.0000
+[CASE 7] cost=79, generated=709, baseline_cost=55.0, baseline_generated=15300442.0
+          → cost_ratio=1.4364, generated_ratio=0.0000
+[CASE 8] cost=72, generated=2921, baseline_cost=44.0, baseline_generated=8885972.0
+          → cost_ratio=1.6364, generated_ratio=0.0003
+[CASE 9] cost=50, generated=810, baseline_cost=42.0, baseline_generated=17984051.0
+          → cost_ratio=1.1905, generated_ratio=0.0000
+[CASE 10] cost=54, generated=2939, baseline_cost=42.0, baseline_generated=540860.0
+          → cost_ratio=1.2857, generated_ratio=0.0054
+[CASE 11] cost=68, generated=2034, baseline_cost=56.0, baseline_generated=1897728.0
+          → cost_ratio=1.2143, generated_ratio=0.0011
+[CASE 12] cost=77, generated=5592, baseline_cost=57.0, baseline_generated=150346072.0
+          → cost_ratio=1.3509, generated_ratio=0.0000
+[CASE 13] cost=75, generated=2860, baseline_cost=55.0, baseline_generated=1199487996.0
+          → cost_ratio=1.3636, generated_ratio=0.0000
+[CASE 14] cost=80, generated=3809, baseline_cost=50.0, baseline_generated=8841527.0
+          → cost_ratio=1.6000, generated_ratio=0.0004
+[CASE 15] cost=81, generated=2449, baseline_cost=49.0, baseline_generated=3222276.0
+          → cost_ratio=1.6531, generated_ratio=0.0008
+[EVAL] finished 15 puzzles (skipped=0)
+[EVAL] avg_generated_ratio=0.0012179, max_cost_ratio=1.7142857
+[Summary] round=4 best=island 2 v5 train(gen=0.0012, cost=1.7143) test=SKIPPED
+[EVAL] generated=0.0010 cost=1.7347 -> VALID
+[Island 0 | v6] gen=0.0010 cost=1.7347 valid=True
+[EVAL] generated=0.0014 cost=1.4082 -> VALID
+[Island 6 | v6] gen=0.0014 cost=1.4082 valid=True
+[EVAL] generated=0.0012 cost=1.6122 -> VALID
+[Island 5 | v6] gen=0.0012 cost=1.6122 valid=True
+[EVAL] generated=0.0012 cost=1.7143 -> VALID
+[Island 2 | v6] gen=0.0012 cost=1.7143 valid=True
+[EVAL] generated=0.0035 cost=1.2500 -> VALID
+[Island 4 | v6] gen=0.0035 cost=1.2500 valid=True
+[EVAL] generated=0.0013 cost=1.4898 -> VALID
+[Island 1 | v6] gen=0.0013 cost=1.4898 valid=True
+[WARN] timeout evaluating generated_programs/generated_program_7_6.py
+[Island 7 | v6] gen=999.0000 cost=999.0000 valid=False
+[WARN] timeout evaluating generated_programs/generated_program_3_6.py
+[Island 3 | v6] gen=999.0000 cost=999.0000 valid=False
+
+===== ROUND 5 SUMMARY =====
+Island 0 | best=0.0010 (gen=0.0010, cost=1.7347) | last=0.0010 | Δ=+0.0000 | n=7 | valid=7 | invalid=0 | valid_rate=1.00 | mean_cost=1.347321129836796
+Island 1 | best=0.0013 (gen=0.0013, cost=1.4898) | last=0.0013 | Δ=+0.0000 | n=7 | valid=6 | invalid=1 | valid_rate=0.86 | mean_cost=143.74553571427174
+Island 2 | best=0.0012 (gen=0.0012, cost=1.7143) | last=0.0012 | Δ=+0.0000 | n=7 | valid=7 | invalid=0 | valid_rate=1.00 | mean_cost=1.4131741982260535
+Island 3 | best=1.0000 (gen=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=7 | valid=2 | invalid=5 | valid_rate=0.29 | mean_cost=713.8571428571429
+Island 4 | best=0.0033 (gen=0.0033, cost=1.2187) | last=0.0035 | Δ=+0.0002 | n=7 | valid=7 | invalid=0 | valid_rate=1.00 | mean_cost=1.2010750728691473
+Island 5 | best=0.0012 (gen=0.0012, cost=1.6122) | last=0.0012 | Δ=+0.0000 | n=7 | valid=7 | invalid=0 | valid_rate=1.00 | mean_cost=1.3787657920089047
+Island 6 | best=0.0014 (gen=0.0014, cost=1.4082) | last=0.0014 | Δ=+0.0000 | n=7 | valid=7 | invalid=0 | valid_rate=1.00 | mean_cost=1.1726494168921882
+Island 7 | best=1.0000 (gen=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=7 | valid=2 | invalid=5 | valid_rate=0.29 | mean_cost=713.8571428571429
+GLOBAL_BEST: island=0 v=6 score=0.0010 | gen=0.001 cost=1.735 | valid=True
+[CASE 1] cost=80, generated=1413, baseline_cost=64.0, baseline_generated=41124767.0
+          → cost_ratio=1.2500, generated_ratio=0.0000
+[CASE 2] cost=72, generated=8122, baseline_cost=42.0, baseline_generated=877023.0
+          → cost_ratio=1.7143, generated_ratio=0.0093
+[CASE 3] cost=93, generated=8122, baseline_cost=57.0, baseline_generated=1101072541.0
+          → cost_ratio=1.6316, generated_ratio=0.0000
+[CASE 4] cost=85, generated=6862, baseline_cost=59.0, baseline_generated=198758703.0
+          → cost_ratio=1.4407, generated_ratio=0.0000
+[CASE 5] cost=95, generated=3192, baseline_cost=61.0, baseline_generated=1957191378.0
+          → cost_ratio=1.5574, generated_ratio=0.0000
+[CASE 6] cost=66, generated=1000, baseline_cost=56.0, baseline_generated=26622863.0
+          → cost_ratio=1.1786, generated_ratio=0.0000
+[CASE 7] cost=79, generated=875, baseline_cost=55.0, baseline_generated=15300442.0
+          → cost_ratio=1.4364, generated_ratio=0.0001
+[CASE 8] cost=72, generated=3068, baseline_cost=44.0, baseline_generated=8885972.0
+          → cost_ratio=1.6364, generated_ratio=0.0003
+[CASE 9] cost=54, generated=830, baseline_cost=42.0, baseline_generated=17984051.0
+          → cost_ratio=1.2857, generated_ratio=0.0000
+[CASE 10] cost=70, generated=1862, baseline_cost=42.0, baseline_generated=540860.0
+          → cost_ratio=1.6667, generated_ratio=0.0034
+[CASE 11] cost=82, generated=779, baseline_cost=56.0, baseline_generated=1897728.0
+          → cost_ratio=1.4643, generated_ratio=0.0004
+[CASE 12] cost=85, generated=6199, baseline_cost=57.0, baseline_generated=150346072.0
+          → cost_ratio=1.4912, generated_ratio=0.0000
+[CASE 13] cost=79, generated=2998, baseline_cost=55.0, baseline_generated=1199487996.0
+          → cost_ratio=1.4364, generated_ratio=0.0000
+[CASE 14] cost=80, generated=4008, baseline_cost=50.0, baseline_generated=8841527.0
+          → cost_ratio=1.6000, generated_ratio=0.0005
+[CASE 15] cost=85, generated=1795, baseline_cost=49.0, baseline_generated=3222276.0
+          → cost_ratio=1.7347, generated_ratio=0.0006
+[EVAL] finished 15 puzzles (skipped=0)
+[EVAL] avg_generated_ratio=0.0009821, max_cost_ratio=1.7346939
+[Summary] round=5 best=island 0 v6 train(gen=0.0010, cost=1.7347) test=SKIPPED
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[WARN] strict JSON parse failed: Unterminated string starting at: line 2 column 11 (char 12)
+[WARN] no def heuristic found
+[WARN] no usable code found in model text head: {
+  "code": "from fifteen_state_class import State\n\ndef heuristic(s: State) -> int:\n    GRID_SIZE = 4\n\n    # Pre-compute goal positions for O(1) lookup\n    GOAL_POS_LOOKUP = {\n        0: (0, 0)...
+[WARN] model error: invalid payload
+[EVAL] generated=0.0013 cost=1.7143 -> VALID
+[Island 2 | v7] gen=0.0013 cost=1.7143 valid=True
+[EVAL] generated=0.0030 cost=1.3673 -> VALID
+[Island 1 | v7] gen=0.0030 cost=1.3673 valid=True
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[EVAL] generated=0.0011 cost=1.8197 -> HIGH_COST
+[Island 0 | v7] gen=0.0011 cost=1.8197 valid=False
+[EVAL] generated=0.0012 cost=1.5306 -> VALID
+[Island 6 | v7] gen=0.0012 cost=1.5306 valid=True
+[EVAL] generated=0.0036 cost=1.6667 -> VALID
+[Island 5 | v7] gen=0.0036 cost=1.6667 valid=True
+[EVAL] generated=0.0029 cost=1.2187 -> VALID
+[Island 4 | v7] gen=0.0029 cost=1.2187 valid=True
+[WARN] timeout evaluating generated_programs/generated_program_7_7.py
+[Island 7 | v7] gen=999.0000 cost=999.0000 valid=False
+[WARN] timeout evaluating generated_programs/generated_program_3_7.py
+[Island 3 | v7] gen=999.0000 cost=999.0000 valid=False
+
+===== ROUND 6 SUMMARY =====
+Island 0 | best=0.0010 (gen=0.0010, cost=1.7347) | last=0.0011 | Δ=+0.0001 | n=8 | valid=7 | invalid=1 | valid_rate=0.88 | mean_cost=1.40636500499691
+Island 1 | best=0.0013 (gen=0.0013, cost=1.4898) | last=0.0030 | Δ=+0.0017 | n=8 | valid=7 | invalid=1 | valid_rate=0.88 | mean_cost=125.94826211733123
+Island 2 | best=0.0012 (gen=0.0012, cost=1.7143) | last=0.0013 | Δ=+0.0001 | n=8 | valid=8 | invalid=0 | valid_rate=1.00 | mean_cost=1.450813137728409
+Island 3 | best=1.0000 (gen=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=8 | valid=2 | invalid=6 | valid_rate=0.25 | mean_cost=749.5
+Island 4 | best=0.0029 (gen=0.0029, cost=1.2187) | last=0.0029 | Δ=+0.0000 | n=8 | valid=8 | invalid=0 | valid_rate=1.00 | mean_cost=1.2032844387581236
+Island 5 | best=0.0012 (gen=0.0012, cost=1.6122) | last=0.0036 | Δ=+0.0024 | n=8 | valid=8 | invalid=0 | valid_rate=1.00 | mean_cost=1.4147534013361647
+Island 6 | best=0.0012 (gen=0.0012, cost=1.5306) | last=0.0012 | Δ=+0.0000 | n=8 | valid=8 | invalid=0 | valid_rate=1.00 | mean_cost=1.2173947703890051
+Island 7 | best=1.0000 (gen=1.0000, cost=1.0000) | last=999.0000 | Δ=+998.0000 | n=8 | valid=2 | invalid=6 | valid_rate=0.25 | mean_cost=749.5
+GLOBAL_BEST: island=0 v=6 score=0.0010 | gen=0.001 cost=1.735 | valid=True
+[CASE 1] cost=80, generated=1413, baseline_cost=64.0, baseline_generated=41124767.0
+          → cost_ratio=1.2500, generated_ratio=0.0000
+[CASE 2] cost=72, generated=8122, baseline_cost=42.0, baseline_generated=877023.0
+          → cost_ratio=1.7143, generated_ratio=0.0093
+[CASE 3] cost=93, generated=8122, baseline_cost=57.0, baseline_generated=1101072541.0
+          → cost_ratio=1.6316, generated_ratio=0.0000
+[CASE 4] cost=85, generated=6862, baseline_cost=59.0, baseline_generated=198758703.0
+          → cost_ratio=1.4407, generated_ratio=0.0000
+[CASE 5] cost=95, generated=3192, baseline_cost=61.0, baseline_generated=1957191378.0
+          → cost_ratio=1.5574, generated_ratio=0.0000
+[CASE 6] cost=66, generated=1000, baseline_cost=56.0, baseline_generated=26622863.0
+          → cost_ratio=1.1786, generated_ratio=0.0000
+[CASE 7] cost=79, generated=875, baseline_cost=55.0, baseline_generated=15300442.0
+          → cost_ratio=1.4364, generated_ratio=0.0001
+[CASE 8] cost=72, generated=3068, baseline_cost=44.0, baseline_generated=8885972.0
+          → cost_ratio=1.6364, generated_ratio=0.0003
+[CASE 9] cost=54, generated=830, baseline_cost=42.0, baseline_generated=17984051.0
+          → cost_ratio=1.2857, generated_ratio=0.0000
+[CASE 10] cost=70, generated=1862, baseline_cost=42.0, baseline_generated=540860.0
+          → cost_ratio=1.6667, generated_ratio=0.0034
+[CASE 11] cost=82, generated=779, baseline_cost=56.0, baseline_generated=1897728.0
+          → cost_ratio=1.4643, generated_ratio=0.0004
+[CASE 12] cost=85, generated=6199, baseline_cost=57.0, baseline_generated=150346072.0
+          → cost_ratio=1.4912, generated_ratio=0.0000
+[CASE 13] cost=79, generated=2998, baseline_cost=55.0, baseline_generated=1199487996.0
+          → cost_ratio=1.4364, generated_ratio=0.0000
+[CASE 14] cost=80, generated=4008, baseline_cost=50.0, baseline_generated=8841527.0
+          → cost_ratio=1.6000, generated_ratio=0.0005
+[CASE 15] cost=85, generated=1795, baseline_cost=49.0, baseline_generated=3222276.0
+          → cost_ratio=1.7347, generated_ratio=0.0006
+[EVAL] finished 15 puzzles (skipped=0)
+[EVAL] avg_generated_ratio=0.0009821, max_cost_ratio=1.7346939
+[Summary] round=6 best=island 0 v6 train(gen=0.0010, cost=1.7347) test=SKIPPED
+[EVAL] generated=0.0013 cost=1.7143 -> VALID
+[Island 2 | v8] gen=0.0013 cost=1.7143 valid=True
+[EVAL] generated=0.0030 cost=1.2187 -> VALID
+[Island 4 | v8] gen=0.0030 cost=1.2187 valid=True
+[EVAL] generated=0.0015 cost=1.5306 -> VALID
+[Island 1 | v8] gen=0.0015 cost=1.5306 valid=True
+[EVAL] generated=0.0013 cost=1.7143 -> VALID
+[Island 6 | v8] gen=0.0013 cost=1.7143 valid=True
+[EVAL] generated=0.0010 cost=1.6122 -> VALID
+[Island 5 | v8] gen=0.0010 cost=1.6122 valid=True
+[WARN] strict JSON parse failed: Unterminated string starting at: line 2 column 11 (char 12)
+[WARN] no def heuristic found
+[WARN] no usable code found in model text head: {
+  "code": "from fifteen_state_class import State\n\ndef heuristic(s: State) -> int:\n    GOAL_POS = {val: (val // 4, val % 4) for val in range(16)}\n\n    # The previous best heuristic used a WEIGHT...
+[WARN] model error: invalid payload
+[EVAL] generated=0.0047 cost=1.1429 -> VALID
+[Island 3 | v8] gen=0.0047 cost=1.1429 valid=True
+[EVAL] generated=0.0011 cost=1.8197 -> HIGH_COST
+[Island 0 | v8] gen=0.0011 cost=1.8197 valid=False
+[EVAL] generated=0.0359 cost=1.0476 -> VALID
+[Island 7 | v8] gen=0.0359 cost=1.0476 valid=True
+
+===== ROUND 7 SUMMARY =====
+Island 0 | best=0.0010 (gen=0.0010, cost=1.7347) | last=0.0011 | Δ=+0.0001 | n=9 | valid=7 | invalid=2 | valid_rate=0.78 | mean_cost=1.4522880190103324
+Island 1 | best=0.0013 (gen=0.0013, cost=1.4898) | last=0.0015 | Δ=+0.0003 | n=9 | valid=8 | invalid=1 | valid_rate=0.89 | mean_cost=112.12407879816851
+Island 2 | best=0.0012 (gen=0.0012, cost=1.7143) | last=0.0013 | Δ=+0.0001 | n=9 | valid=9 | invalid=0 | valid_rate=1.00 | mean_cost=1.4800878684524634
+Island 3 | best=0.0047 (gen=0.0047, cost=1.1429) | last=0.0047 | Δ=+0.0000 | n=9 | valid=3 | invalid=6 | valid_rate=0.33 | mean_cost=666.3492063492041
+Island 4 | best=0.0029 (gen=0.0029, cost=1.2187) | last=0.0030 | Δ=+0.0001 | n=9 | valid=9 | invalid=0 | valid_rate=1.00 | mean_cost=1.2050028344495494
+Island 5 | best=0.0010 (gen=0.0010, cost=1.6122) | last=0.0010 | Δ=+0.0000 | n=9 | valid=9 | invalid=0 | valid_rate=1.00 | mean_cost=1.4366969009572887
+Island 6 | best=0.0012 (gen=0.0012, cost=1.5306) | last=0.0013 | Δ=+0.0001 | n=9 | valid=9 | invalid=0 | valid_rate=1.00 | mean_cost=1.2726048752618822
+Island 7 | best=0.0359 (gen=0.0359, cost=1.0476) | last=0.0359 | Δ=+0.0000 | n=9 | valid=3 | invalid=6 | valid_rate=0.33 | mean_cost=666.3386243386216
+GLOBAL_BEST: island=5 v=8 score=0.0010 | gen=0.001 cost=1.612 | valid=True
+[CASE 1] cost=90, generated=9092, baseline_cost=64.0, baseline_generated=41124767.0
+          → cost_ratio=1.4062, generated_ratio=0.0002
+[CASE 2] cost=60, generated=4052, baseline_cost=42.0, baseline_generated=877023.0
+          → cost_ratio=1.4286, generated_ratio=0.0046
+[CASE 3] cost=77, generated=2106, baseline_cost=57.0, baseline_generated=1101072541.0
+          → cost_ratio=1.3509, generated_ratio=0.0000
+[CASE 4] cost=71, generated=12212, baseline_cost=59.0, baseline_generated=198758703.0
+          → cost_ratio=1.2034, generated_ratio=0.0001
+[CASE 5] cost=91, generated=1752, baseline_cost=61.0, baseline_generated=1957191378.0
+          → cost_ratio=1.4918, generated_ratio=0.0000
+[CASE 6] cost=80, generated=5657, baseline_cost=56.0, baseline_generated=26622863.0
+          → cost_ratio=1.4286, generated_ratio=0.0002
+[CASE 7] cost=67, generated=1710, baseline_cost=55.0, baseline_generated=15300442.0
+          → cost_ratio=1.2182, generated_ratio=0.0001
+[CASE 8] cost=70, generated=1416, baseline_cost=44.0, baseline_generated=8885972.0
+          → cost_ratio=1.5909, generated_ratio=0.0002
+[CASE 9] cost=54, generated=553, baseline_cost=42.0, baseline_generated=17984051.0
+          → cost_ratio=1.2857, generated_ratio=0.0000
+[CASE 10] cost=60, generated=2954, baseline_cost=42.0, baseline_generated=540860.0
+          → cost_ratio=1.4286, generated_ratio=0.0055
+[CASE 11] cost=82, generated=4011, baseline_cost=56.0, baseline_generated=1897728.0
+          → cost_ratio=1.4643, generated_ratio=0.0021
+[CASE 12] cost=71, generated=1717, baseline_cost=57.0, baseline_generated=150346072.0
+          → cost_ratio=1.2456, generated_ratio=0.0000
+[CASE 13] cost=75, generated=6237, baseline_cost=55.0, baseline_generated=1199487996.0
+          → cost_ratio=1.3636, generated_ratio=0.0000
+[CASE 14] cost=70, generated=3698, baseline_cost=50.0, baseline_generated=8841527.0
+          → cost_ratio=1.4000, generated_ratio=0.0004
+[CASE 15] cost=79, generated=3646, baseline_cost=49.0, baseline_generated=3222276.0
+          → cost_ratio=1.6122, generated_ratio=0.0011
+[EVAL] finished 15 puzzles (skipped=0)
+[EVAL] avg_generated_ratio=0.0009708, max_cost_ratio=1.6122449
+[Summary] round=7 best=island 5 v8 train(gen=0.0010, cost=1.6122) test=SKIPPED
+[EVAL] generated=0.0011 cost=1.8197 -> HIGH_COST
+[Island 0 | v9] gen=0.0011 cost=1.8197 valid=False
+[WARN] eval failed: invalid syntax (generated_program_6_9.py, line 49)
+[Island 6 | v9] gen=999.0000 cost=999.0000 valid=False
+[EVAL] generated=0.0047 cost=1.1429 -> VALID
+[Island 3 | v9] gen=0.0047 cost=1.1429 valid=True
+[EVAL] generated=0.0009 cost=1.6122 -> VALID
+[Island 5 | v9] gen=0.0009 cost=1.6122 valid=True
+[EVAL] generated=0.0015 cost=1.7143 -> VALID
+[Island 1 | v9] gen=0.0015 cost=1.7143 valid=True
+[EVAL] generated=0.0011 cost=1.7143 -> VALID
+[Island 2 | v9] gen=0.0011 cost=1.7143 valid=True
+[EVAL] generated=0.0041 cost=1.2857 -> VALID
+[Island 4 | v9] gen=0.0041 cost=1.2857 valid=True
+[EVAL] generated=0.0361 cost=1.0476 -> VALID
+[Island 7 | v9] gen=0.0361 cost=1.0476 valid=True
+
+===== ROUND 8 SUMMARY =====
+Island 0 | best=0.0010 (gen=0.0010, cost=1.7347) | last=0.0011 | Δ=+0.0001 | n=10 | valid=7 | invalid=3 | valid_rate=0.70 | mean_cost=1.48902643022107
+Island 1 | best=0.0013 (gen=0.0013, cost=1.4898) | last=0.0015 | Δ=+0.0002 | n=10 | valid=9 | invalid=1 | valid_rate=0.90 | mean_cost=101.08309948977615
+Island 2 | best=0.0011 (gen=0.0011, cost=1.7143) | last=0.0011 | Δ=+0.0000 | n=10 | valid=10 | invalid=0 | valid_rate=1.00 | mean_cost=1.5035076530317069
+Island 3 | best=0.0047 (gen=0.0047, cost=1.1429) | last=0.0047 | Δ=+0.0000 | n=10 | valid=4 | invalid=6 | valid_rate=0.40 | mean_cost=599.8285714285673
+Island 4 | best=0.0029 (gen=0.0029, cost=1.2187) | last=0.0041 | Δ=+0.0012 | n=10 | valid=10 | invalid=0 | valid_rate=1.00 | mean_cost=1.213073979573727
+Island 5 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0009 | Δ=+0.0000 | n=10 | valid=10 | invalid=0 | valid_rate=1.00 | mean_cost=1.454251700654188
+Island 6 | best=0.0012 (gen=0.0012, cost=1.5306) | last=999.0000 | Δ=+998.9988 | n=10 | valid=9 | invalid=1 | valid_rate=0.90 | mean_cost=101.0453443877357
+Island 7 | best=0.0359 (gen=0.0359, cost=1.0476) | last=0.0361 | Δ=+0.0002 | n=10 | valid=4 | invalid=6 | valid_rate=0.40 | mean_cost=599.8095238095189
+GLOBAL_BEST: island=5 v=9 score=0.0009 | gen=0.001 cost=1.612 | valid=True
+[CASE 1] cost=90, generated=14050, baseline_cost=64.0, baseline_generated=41124767.0
+          → cost_ratio=1.4062, generated_ratio=0.0003
+[CASE 2] cost=62, generated=5331, baseline_cost=42.0, baseline_generated=877023.0
+          → cost_ratio=1.4762, generated_ratio=0.0061
+[CASE 3] cost=77, generated=2389, baseline_cost=57.0, baseline_generated=1101072541.0
+          → cost_ratio=1.3509, generated_ratio=0.0000
+[CASE 4] cost=85, generated=1277, baseline_cost=59.0, baseline_generated=198758703.0
+          → cost_ratio=1.4407, generated_ratio=0.0000
+[CASE 5] cost=93, generated=1352, baseline_cost=61.0, baseline_generated=1957191378.0
+          → cost_ratio=1.5246, generated_ratio=0.0000
+[CASE 6] cost=80, generated=6290, baseline_cost=56.0, baseline_generated=26622863.0
+          → cost_ratio=1.4286, generated_ratio=0.0002
+[CASE 7] cost=67, generated=1818, baseline_cost=55.0, baseline_generated=15300442.0
+          → cost_ratio=1.2182, generated_ratio=0.0001
+[CASE 8] cost=70, generated=1346, baseline_cost=44.0, baseline_generated=8885972.0
+          → cost_ratio=1.5909, generated_ratio=0.0002
+[CASE 9] cost=54, generated=553, baseline_cost=42.0, baseline_generated=17984051.0
+          → cost_ratio=1.2857, generated_ratio=0.0000
+[CASE 10] cost=64, generated=1290, baseline_cost=42.0, baseline_generated=540860.0
+          → cost_ratio=1.5238, generated_ratio=0.0024
+[CASE 11] cost=82, generated=4224, baseline_cost=56.0, baseline_generated=1897728.0
+          → cost_ratio=1.4643, generated_ratio=0.0022
+[CASE 12] cost=71, generated=1717, baseline_cost=57.0, baseline_generated=150346072.0
+          → cost_ratio=1.2456, generated_ratio=0.0000
+[CASE 13] cost=75, generated=8173, baseline_cost=55.0, baseline_generated=1199487996.0
+          → cost_ratio=1.3636, generated_ratio=0.0000
+[CASE 14] cost=80, generated=2273, baseline_cost=50.0, baseline_generated=8841527.0
+          → cost_ratio=1.6000, generated_ratio=0.0003
+[CASE 15] cost=79, generated=3455, baseline_cost=49.0, baseline_generated=3222276.0
+          → cost_ratio=1.6122, generated_ratio=0.0011
+[EVAL] finished 15 puzzles (skipped=0)
+[EVAL] avg_generated_ratio=0.0008617, max_cost_ratio=1.6122449
+[Summary] round=8 best=island 5 v9 train(gen=0.0009, cost=1.6122) test=SKIPPED
+
+=== CULL ===
+Survivors: [5, 0, 2, 6]
+Culled: [1, 4, 3, 7]
+[Inject] island 1
+   Injected elite with score=0.0009, cost=1.612, valid=True
+   Injected elite with score=0.0010, cost=1.735, valid=True
+[Inject] island 4
+   Injected elite with score=0.0009, cost=1.612, valid=True
+   Injected elite with score=0.0010, cost=1.735, valid=True
+[Inject] island 3
+   Injected elite with score=0.0009, cost=1.612, valid=True
+   Injected elite with score=0.0010, cost=1.735, valid=True
+[Inject] island 7
+   Injected elite with score=0.0009, cost=1.612, valid=True
+   Injected elite with score=0.0010, cost=1.735, valid=True
+
+===== ROUND 8 SUMMARY =====
+Island 0 | best=0.0010 (gen=0.0010, cost=1.7347) | last=0.0011 | Δ=+0.0001 | n=10 | valid=7 | invalid=3 | valid_rate=0.70 | mean_cost=1.48902643022107
+Island 1 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0010 | Δ=+0.0001 | n=2 | valid=2 | invalid=0 | valid_rate=1.00 | mean_cost=1.6734693877209499
+Island 2 | best=0.0011 (gen=0.0011, cost=1.7143) | last=0.0011 | Δ=+0.0000 | n=10 | valid=10 | invalid=0 | valid_rate=1.00 | mean_cost=1.5035076530317069
+Island 3 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0010 | Δ=+0.0001 | n=2 | valid=2 | invalid=0 | valid_rate=1.00 | mean_cost=1.6734693877209499
+Island 4 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0010 | Δ=+0.0001 | n=2 | valid=2 | invalid=0 | valid_rate=1.00 | mean_cost=1.6734693877209499
+Island 5 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0009 | Δ=+0.0000 | n=10 | valid=10 | invalid=0 | valid_rate=1.00 | mean_cost=1.454251700654188
+Island 6 | best=0.0012 (gen=0.0012, cost=1.5306) | last=999.0000 | Δ=+998.9988 | n=10 | valid=9 | invalid=1 | valid_rate=0.90 | mean_cost=101.0453443877357
+Island 7 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0010 | Δ=+0.0001 | n=2 | valid=2 | invalid=0 | valid_rate=1.00 | mean_cost=1.6734693877209499
+GLOBAL_BEST: island=1 v=10 score=0.0009 | gen=0.001 cost=1.612 | valid=True
+[WARN] unparsable code skipped: invalid syntax (<unknown>, line 49)
+[EVAL] generated=0.0010 cost=1.6531 -> VALID
+[Island 2 | v10] gen=0.0010 cost=1.6531 valid=True
+[WARN] strict JSON parse failed: Unterminated string starting at: line 2 column 11 (char 12)
+[WARN] no def heuristic found
+[WARN] no usable code found in model text head: {
+  "code": "from fifteen_state_class import State\n\ndef heuristic(s: State) -> int:\n    manhattan_dist = 0\n    linear_conflicts = 0\n\n    # The previous WEIGHT_FACTOR = 3.4 yielded a cost_ratio o...
+[WARN] model error: invalid payload
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[EVAL] generated=0.0009 cost=1.6122 -> VALID
+[Island 4 | v12] gen=0.0009 cost=1.6122 valid=True
+[EVAL] generated=0.0011 cost=1.8197 -> HIGH_COST
+[Island 0 | v10] gen=0.0011 cost=1.8197 valid=False
+[EVAL] generated=0.0006 cost=1.9048 -> HIGH_COST
+[Island 3 | v12] gen=0.0006 cost=1.9048 valid=False
+[EVAL] generated=0.0009 cost=1.6122 -> VALID
+[Island 5 | v10] gen=0.0009 cost=1.6122 valid=True
+[EVAL] generated=0.0016 cost=1.5306 -> VALID
+[Island 6 | v10] gen=0.0016 cost=1.5306 valid=True
+[EVAL] generated=0.0009 cost=1.6122 -> VALID
+[Island 7 | v12] gen=0.0009 cost=1.6122 valid=True
+[EVAL] generated=0.0007 cost=1.9048 -> HIGH_COST
+[Island 1 | v12] gen=0.0007 cost=1.9048 valid=False
+
+===== ROUND 9 SUMMARY =====
+Island 0 | best=0.0010 (gen=0.0010, cost=1.7347) | last=0.0011 | Δ=+0.0001 | n=11 | valid=7 | invalid=4 | valid_rate=0.64 | mean_cost=1.519085130302583
+Island 1 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0007 | Δ=-0.0002 | n=3 | valid=2 | invalid=1 | valid_rate=0.67 | mean_cost=1.750566893386151
+Island 2 | best=0.0010 (gen=0.0010, cost=1.6531) | last=0.0010 | Δ=+0.0000 | n=11 | valid=11 | invalid=0 | valid_rate=1.00 | mean_cost=1.5171034322521024
+Island 3 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0006 | Δ=-0.0003 | n=3 | valid=2 | invalid=1 | valid_rate=0.67 | mean_cost=1.750566893386151
+Island 4 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0009 | Δ=+0.0000 | n=3 | valid=3 | invalid=0 | valid_rate=1.00 | mean_cost=1.65306122445606
+Island 5 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0009 | Δ=+0.0000 | n=11 | valid=11 | invalid=0 | valid_rate=1.00 | mean_cost=1.4686147185880145
+Island 6 | best=0.0012 (gen=0.0012, cost=1.5306) | last=0.0016 | Δ=+0.0004 | n=11 | valid=10 | invalid=1 | valid_rate=0.91 | mean_cost=91.99855055656579
+Island 7 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0009 | Δ=+0.0000 | n=3 | valid=3 | invalid=0 | valid_rate=1.00 | mean_cost=1.65306122445606
+GLOBAL_BEST: island=1 v=10 score=0.0009 | gen=0.001 cost=1.612 | valid=True
+[CASE 1] cost=90, generated=14050, baseline_cost=64.0, baseline_generated=41124767.0
+          → cost_ratio=1.4062, generated_ratio=0.0003
+[CASE 2] cost=62, generated=5331, baseline_cost=42.0, baseline_generated=877023.0
+          → cost_ratio=1.4762, generated_ratio=0.0061
+[CASE 3] cost=77, generated=2389, baseline_cost=57.0, baseline_generated=1101072541.0
+          → cost_ratio=1.3509, generated_ratio=0.0000
+[CASE 4] cost=85, generated=1277, baseline_cost=59.0, baseline_generated=198758703.0
+          → cost_ratio=1.4407, generated_ratio=0.0000
+[CASE 5] cost=93, generated=1352, baseline_cost=61.0, baseline_generated=1957191378.0
+          → cost_ratio=1.5246, generated_ratio=0.0000
+[CASE 6] cost=80, generated=6290, baseline_cost=56.0, baseline_generated=26622863.0
+          → cost_ratio=1.4286, generated_ratio=0.0002
+[CASE 7] cost=67, generated=1818, baseline_cost=55.0, baseline_generated=15300442.0
+          → cost_ratio=1.2182, generated_ratio=0.0001
+[CASE 8] cost=70, generated=1346, baseline_cost=44.0, baseline_generated=8885972.0
+          → cost_ratio=1.5909, generated_ratio=0.0002
+[CASE 9] cost=54, generated=553, baseline_cost=42.0, baseline_generated=17984051.0
+          → cost_ratio=1.2857, generated_ratio=0.0000
+[CASE 10] cost=64, generated=1290, baseline_cost=42.0, baseline_generated=540860.0
+          → cost_ratio=1.5238, generated_ratio=0.0024
+[CASE 11] cost=82, generated=4224, baseline_cost=56.0, baseline_generated=1897728.0
+          → cost_ratio=1.4643, generated_ratio=0.0022
+[CASE 12] cost=71, generated=1717, baseline_cost=57.0, baseline_generated=150346072.0
+          → cost_ratio=1.2456, generated_ratio=0.0000
+[CASE 13] cost=75, generated=8173, baseline_cost=55.0, baseline_generated=1199487996.0
+          → cost_ratio=1.3636, generated_ratio=0.0000
+[CASE 14] cost=80, generated=2273, baseline_cost=50.0, baseline_generated=8841527.0
+          → cost_ratio=1.6000, generated_ratio=0.0003
+[CASE 15] cost=79, generated=3455, baseline_cost=49.0, baseline_generated=3222276.0
+          → cost_ratio=1.6122, generated_ratio=0.0011
+[EVAL] finished 15 puzzles (skipped=0)
+[EVAL] avg_generated_ratio=0.0008617, max_cost_ratio=1.6122449
+[Summary] round=9 best=island 1 v10 train(gen=0.0009, cost=1.6122) test=SKIPPED
+[WARN] unparsable code skipped: invalid syntax (<unknown>, line 49)
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[EVAL] generated=0.0024 cost=2.0000 -> HIGH_COST
+[Island 7 | v13] gen=0.0024 cost=2.0000 valid=False
+[EVAL] generated=0.0018 cost=1.7143 -> VALID
+[Island 6 | v11] gen=0.0018 cost=1.7143 valid=True
+[EVAL] generated=0.0009 cost=1.7143 -> VALID
+[Island 2 | v11] gen=0.0009 cost=1.7143 valid=True
+[WARN] strict JSON parse failed: Expecting ',' delimiter: line 2 column 1971 (char 1972)
+[WARN] unparsable code skipped: unexpected character after line continuation character (<unknown>, line 2)
+[WARN] no usable code found in model text head: {
+  "code": "from fifteen_state_class import State\n\ndef heuristic(s: State) -> int:\n    MD_TABLE = tuple(\n        tuple(\n            abs((i // 4) - (val // 4)) + abs((i % 4) - (val % 4))\n       ...
+[WARN] model error: invalid payload
+[EVAL] generated=0.0006 cost=1.9048 -> HIGH_COST
+[Island 1 | v13] gen=0.0006 cost=1.9048 valid=False
+[EVAL] generated=0.0006 cost=1.9048 -> HIGH_COST
+[Island 3 | v13] gen=0.0006 cost=1.9048 valid=False
+[EVAL] generated=0.0006 cost=1.9048 -> HIGH_COST
+[Island 4 | v13] gen=0.0006 cost=1.9048 valid=False
+[EVAL] generated=0.0010 cost=1.6531 -> VALID
+[Island 0 | v11] gen=0.0010 cost=1.6531 valid=True
+[EVAL] generated=0.0006 cost=1.9048 -> HIGH_COST
+[Island 5 | v11] gen=0.0006 cost=1.9048 valid=False
+
+===== ROUND 10 SUMMARY =====
+Island 0 | best=0.0010 (gen=0.0010, cost=1.6531) | last=0.0010 | Δ=+0.0000 | n=12 | valid=8 | invalid=4 | valid_rate=0.67 | mean_cost=1.5302498048153728
+Island 1 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0006 | Δ=-0.0003 | n=4 | valid=2 | invalid=2 | valid_rate=0.50 | mean_cost=1.7891156462187516
+Island 2 | best=0.0009 (gen=0.0009, cost=1.7143) | last=0.0009 | Δ=+0.0000 | n=12 | valid=12 | invalid=0 | valid_rate=1.00 | mean_cost=1.5335352890848355
+Island 3 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0006 | Δ=-0.0003 | n=4 | valid=2 | invalid=2 | valid_rate=0.50 | mean_cost=1.7891156462187516
+Island 4 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0006 | Δ=-0.0003 | n=4 | valid=3 | invalid=1 | valid_rate=0.75 | mean_cost=1.7159863945211835
+Island 5 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0006 | Δ=-0.0002 | n=12 | valid=11 | invalid=1 | valid_rate=0.92 | mean_cost=1.5049603174320596
+Island 6 | best=0.0012 (gen=0.0012, cost=1.5306) | last=0.0018 | Δ=+0.0006 | n=12 | valid=11 | invalid=1 | valid_rate=0.92 | mean_cost=84.47486181970571
+Island 7 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0024 | Δ=+0.0015 | n=4 | valid=3 | invalid=1 | valid_rate=0.75 | mean_cost=1.7397959183301404
+GLOBAL_BEST: island=1 v=10 score=0.0009 | gen=0.001 cost=1.612 | valid=True
+[CASE 1] cost=90, generated=14050, baseline_cost=64.0, baseline_generated=41124767.0
+          → cost_ratio=1.4062, generated_ratio=0.0003
+[CASE 2] cost=62, generated=5331, baseline_cost=42.0, baseline_generated=877023.0
+          → cost_ratio=1.4762, generated_ratio=0.0061
+[CASE 3] cost=77, generated=2389, baseline_cost=57.0, baseline_generated=1101072541.0
+          → cost_ratio=1.3509, generated_ratio=0.0000
+[CASE 4] cost=85, generated=1277, baseline_cost=59.0, baseline_generated=198758703.0
+          → cost_ratio=1.4407, generated_ratio=0.0000
+[CASE 5] cost=93, generated=1352, baseline_cost=61.0, baseline_generated=1957191378.0
+          → cost_ratio=1.5246, generated_ratio=0.0000
+[CASE 6] cost=80, generated=6290, baseline_cost=56.0, baseline_generated=26622863.0
+          → cost_ratio=1.4286, generated_ratio=0.0002
+[CASE 7] cost=67, generated=1818, baseline_cost=55.0, baseline_generated=15300442.0
+          → cost_ratio=1.2182, generated_ratio=0.0001
+[CASE 8] cost=70, generated=1346, baseline_cost=44.0, baseline_generated=8885972.0
+          → cost_ratio=1.5909, generated_ratio=0.0002
+[CASE 9] cost=54, generated=553, baseline_cost=42.0, baseline_generated=17984051.0
+          → cost_ratio=1.2857, generated_ratio=0.0000
+[CASE 10] cost=64, generated=1290, baseline_cost=42.0, baseline_generated=540860.0
+          → cost_ratio=1.5238, generated_ratio=0.0024
+[CASE 11] cost=82, generated=4224, baseline_cost=56.0, baseline_generated=1897728.0
+          → cost_ratio=1.4643, generated_ratio=0.0022
+[CASE 12] cost=71, generated=1717, baseline_cost=57.0, baseline_generated=150346072.0
+          → cost_ratio=1.2456, generated_ratio=0.0000
+[CASE 13] cost=75, generated=8173, baseline_cost=55.0, baseline_generated=1199487996.0
+          → cost_ratio=1.3636, generated_ratio=0.0000
+[CASE 14] cost=80, generated=2273, baseline_cost=50.0, baseline_generated=8841527.0
+          → cost_ratio=1.6000, generated_ratio=0.0003
+[CASE 15] cost=79, generated=3455, baseline_cost=49.0, baseline_generated=3222276.0
+          → cost_ratio=1.6122, generated_ratio=0.0011
+[EVAL] finished 15 puzzles (skipped=0)
+[EVAL] avg_generated_ratio=0.0008617, max_cost_ratio=1.6122449
+[Summary] round=10 best=island 1 v10 train(gen=0.0009, cost=1.6122) test=SKIPPED
+[EVAL] generated=0.0006 cost=1.9048 -> HIGH_COST
+[Island 5 | v12] gen=0.0006 cost=1.9048 valid=False
+[EVAL] generated=0.0006 cost=1.9048 -> HIGH_COST
+[Island 3 | v14] gen=0.0006 cost=1.9048 valid=False
+[EVAL] generated=0.0005 cost=1.9048 -> HIGH_COST
+[Island 4 | v14] gen=0.0005 cost=1.9048 valid=False
+[EVAL] generated=0.0015 cost=1.5306 -> VALID
+[Island 6 | v12] gen=0.0015 cost=1.5306 valid=True
+[EVAL] generated=0.0010 cost=1.8125 -> HIGH_COST
+[Island 0 | v12] gen=0.0010 cost=1.8125 valid=False
+[EVAL] generated=0.0009 cost=1.8182 -> HIGH_COST
+[Island 2 | v12] gen=0.0009 cost=1.8182 valid=False
+[EVAL] generated=0.0005 cost=1.9048 -> HIGH_COST
+[Island 1 | v14] gen=0.0005 cost=1.9048 valid=False
+[EVAL] generated=0.0078 cost=1.9048 -> HIGH_COST
+[Island 7 | v14] gen=0.0078 cost=1.9048 valid=False
+
+===== ROUND 11 SUMMARY =====
+Island 0 | best=0.0010 (gen=0.0010, cost=1.6531) | last=0.0010 | Δ=+0.0001 | n=13 | valid=8 | invalid=5 | valid_rate=0.62 | mean_cost=1.551961358288935
+Island 1 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0005 | Δ=-0.0003 | n=5 | valid=2 | invalid=3 | valid_rate=0.40 | mean_cost=1.812244897918312
+Island 2 | best=0.0009 (gen=0.0009, cost=1.7143) | last=0.0009 | Δ=-0.0000 | n=13 | valid=12 | invalid=1 | valid_rate=0.92 | mean_cost=1.555431175935271
+Island 3 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0006 | Δ=-0.0002 | n=5 | valid=2 | invalid=3 | valid_rate=0.40 | mean_cost=1.812244897918312
+Island 4 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0005 | Δ=-0.0004 | n=5 | valid=3 | invalid=2 | valid_rate=0.60 | mean_cost=1.7537414965602576
+Island 5 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0006 | Δ=-0.0002 | n=13 | valid=11 | invalid=2 | valid_rate=0.85 | mean_cost=1.5357142856847128
+Island 6 | best=0.0012 (gen=0.0012, cost=1.5306) | last=0.0015 | Δ=+0.0003 | n=13 | valid=12 | invalid=1 | valid_rate=0.92 | mean_cost=78.09453492933348
+Island 7 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0078 | Δ=+0.0069 | n=5 | valid=3 | invalid=2 | valid_rate=0.60 | mean_cost=1.772789115607423
+GLOBAL_BEST: island=1 v=10 score=0.0009 | gen=0.001 cost=1.612 | valid=True
+[CASE 1] cost=90, generated=14050, baseline_cost=64.0, baseline_generated=41124767.0
+          → cost_ratio=1.4062, generated_ratio=0.0003
+[CASE 2] cost=62, generated=5331, baseline_cost=42.0, baseline_generated=877023.0
+          → cost_ratio=1.4762, generated_ratio=0.0061
+[CASE 3] cost=77, generated=2389, baseline_cost=57.0, baseline_generated=1101072541.0
+          → cost_ratio=1.3509, generated_ratio=0.0000
+[CASE 4] cost=85, generated=1277, baseline_cost=59.0, baseline_generated=198758703.0
+          → cost_ratio=1.4407, generated_ratio=0.0000
+[CASE 5] cost=93, generated=1352, baseline_cost=61.0, baseline_generated=1957191378.0
+          → cost_ratio=1.5246, generated_ratio=0.0000
+[CASE 6] cost=80, generated=6290, baseline_cost=56.0, baseline_generated=26622863.0
+          → cost_ratio=1.4286, generated_ratio=0.0002
+[CASE 7] cost=67, generated=1818, baseline_cost=55.0, baseline_generated=15300442.0
+          → cost_ratio=1.2182, generated_ratio=0.0001
+[CASE 8] cost=70, generated=1346, baseline_cost=44.0, baseline_generated=8885972.0
+          → cost_ratio=1.5909, generated_ratio=0.0002
+[CASE 9] cost=54, generated=553, baseline_cost=42.0, baseline_generated=17984051.0
+          → cost_ratio=1.2857, generated_ratio=0.0000
+[CASE 10] cost=64, generated=1290, baseline_cost=42.0, baseline_generated=540860.0
+          → cost_ratio=1.5238, generated_ratio=0.0024
+[CASE 11] cost=82, generated=4224, baseline_cost=56.0, baseline_generated=1897728.0
+          → cost_ratio=1.4643, generated_ratio=0.0022
+[CASE 12] cost=71, generated=1717, baseline_cost=57.0, baseline_generated=150346072.0
+          → cost_ratio=1.2456, generated_ratio=0.0000
+[CASE 13] cost=75, generated=8173, baseline_cost=55.0, baseline_generated=1199487996.0
+          → cost_ratio=1.3636, generated_ratio=0.0000
+[CASE 14] cost=80, generated=2273, baseline_cost=50.0, baseline_generated=8841527.0
+          → cost_ratio=1.6000, generated_ratio=0.0003
+[CASE 15] cost=79, generated=3455, baseline_cost=49.0, baseline_generated=3222276.0
+          → cost_ratio=1.6122, generated_ratio=0.0011
+[EVAL] finished 15 puzzles (skipped=0)
+[EVAL] avg_generated_ratio=0.0008617, max_cost_ratio=1.6122449
+[Summary] round=11 best=island 1 v10 train(gen=0.0009, cost=1.6122) test=SKIPPED
+[EVAL] generated=0.0020 cost=2.0000 -> HIGH_COST
+[Island 7 | v15] gen=0.0020 cost=2.0000 valid=False
+[EVAL] generated=0.0013 cost=1.7812 -> VALID
+[Island 0 | v13] gen=0.0013 cost=1.7812 valid=True
+[EVAL] generated=0.0005 cost=1.9048 -> HIGH_COST
+[Island 1 | v15] gen=0.0005 cost=1.9048 valid=False
+[EVAL] generated=0.0006 cost=1.9048 -> HIGH_COST
+[Island 5 | v13] gen=0.0006 cost=1.9048 valid=False
+[EVAL] generated=0.0015 cost=1.9048 -> HIGH_COST
+[Island 3 | v15] gen=0.0015 cost=1.9048 valid=False
+[EVAL] generated=0.0005 cost=1.9048 -> HIGH_COST
+[Island 4 | v15] gen=0.0005 cost=1.9048 valid=False
+[EVAL] generated=0.0006 cost=1.7755 -> VALID
+[Island 2 | v13] gen=0.0006 cost=1.7755 valid=True
+[EVAL] generated=0.0021 cost=1.5625 -> VALID
+[Island 6 | v13] gen=0.0021 cost=1.5625 valid=True
+
+===== ROUND 12 SUMMARY =====
+Island 0 | best=0.0010 (gen=0.0010, cost=1.6531) | last=0.0013 | Δ=+0.0004 | n=14 | valid=9 | invalid=5 | valid_rate=0.64 | mean_cost=1.5683391184091655
+Island 1 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0005 | Δ=-0.0003 | n=6 | valid=2 | invalid=4 | valid_rate=0.33 | mean_cost=1.8276643990513521
+Island 2 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0006 | Δ=+0.0000 | n=14 | valid=13 | invalid=1 | valid_rate=0.93 | mean_cost=1.5711511065145658
+Island 3 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0015 | Δ=+0.0006 | n=6 | valid=2 | invalid=4 | valid_rate=0.33 | mean_cost=1.8276643990513521
+Island 4 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0005 | Δ=-0.0004 | n=6 | valid=3 | invalid=3 | valid_rate=0.50 | mean_cost=1.7789115645863067
+Island 5 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0006 | Δ=-0.0003 | n=14 | valid=11 | invalid=3 | valid_rate=0.79 | mean_cost=1.5620748299012728
+Island 6 | best=0.0012 (gen=0.0012, cost=1.5306) | last=0.0021 | Δ=+0.0009 | n=14 | valid=13 | invalid=1 | valid_rate=0.93 | mean_cost=72.62796100580792
+Island 7 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0020 | Δ=+0.0012 | n=6 | valid=3 | invalid=3 | valid_rate=0.50 | mean_cost=1.8106575963315825
+GLOBAL_BEST: island=2 v=13 score=0.0006 | gen=0.001 cost=1.776 | valid=True
+[CASE 1] cost=94, generated=7442, baseline_cost=64.0, baseline_generated=41124767.0
+          → cost_ratio=1.4687, generated_ratio=0.0002
+[CASE 2] cost=70, generated=2829, baseline_cost=42.0, baseline_generated=877023.0
+          → cost_ratio=1.6667, generated_ratio=0.0032
+[CASE 3] cost=87, generated=1230, baseline_cost=57.0, baseline_generated=1101072541.0
+          → cost_ratio=1.5263, generated_ratio=0.0000
+[CASE 4] cost=87, generated=1883, baseline_cost=59.0, baseline_generated=198758703.0
+          → cost_ratio=1.4746, generated_ratio=0.0000
+[CASE 5] cost=89, generated=1164, baseline_cost=61.0, baseline_generated=1957191378.0
+          → cost_ratio=1.4590, generated_ratio=0.0000
+[CASE 6] cost=84, generated=1600, baseline_cost=56.0, baseline_generated=26622863.0
+          → cost_ratio=1.5000, generated_ratio=0.0001
+[CASE 7] cost=81, generated=1126, baseline_cost=55.0, baseline_generated=15300442.0
+          → cost_ratio=1.4727, generated_ratio=0.0001
+[CASE 8] cost=66, generated=3787, baseline_cost=44.0, baseline_generated=8885972.0
+          → cost_ratio=1.5000, generated_ratio=0.0004
+[CASE 9] cost=66, generated=1223, baseline_cost=42.0, baseline_generated=17984051.0
+          → cost_ratio=1.5714, generated_ratio=0.0001
+[CASE 10] cost=66, generated=1536, baseline_cost=42.0, baseline_generated=540860.0
+          → cost_ratio=1.5714, generated_ratio=0.0028
+[CASE 11] cost=82, generated=915, baseline_cost=56.0, baseline_generated=1897728.0
+          → cost_ratio=1.4643, generated_ratio=0.0005
+[CASE 12] cost=75, generated=1174, baseline_cost=57.0, baseline_generated=150346072.0
+          → cost_ratio=1.3158, generated_ratio=0.0000
+[CASE 13] cost=77, generated=4309, baseline_cost=55.0, baseline_generated=1199487996.0
+          → cost_ratio=1.4000, generated_ratio=0.0000
+[CASE 14] cost=74, generated=3741, baseline_cost=50.0, baseline_generated=8841527.0
+          → cost_ratio=1.4800, generated_ratio=0.0004
+[CASE 15] cost=87, generated=2711, baseline_cost=49.0, baseline_generated=3222276.0
+          → cost_ratio=1.7755, generated_ratio=0.0008
+[EVAL] finished 15 puzzles (skipped=0)
+[EVAL] avg_generated_ratio=0.0005762, max_cost_ratio=1.7755102
+[Summary] round=12 best=island 2 v13 train(gen=0.0006, cost=1.7755) test=SKIPPED
+[EVAL] generated=0.0009 cost=1.6122 -> VALID
+[Island 5 | v14] gen=0.0009 cost=1.6122 valid=True
+[EVAL] generated=0.0008 cost=1.9524 -> HIGH_COST
+[Island 0 | v14] gen=0.0008 cost=1.9524 valid=False
+[EVAL] generated=0.0006 cost=1.9048 -> HIGH_COST
+[Island 3 | v16] gen=0.0006 cost=1.9048 valid=False
+[EVAL] generated=0.0007 cost=1.9048 -> HIGH_COST
+[Island 4 | v16] gen=0.0007 cost=1.9048 valid=False
+[EVAL] generated=0.0007 cost=1.7755 -> VALID
+[Island 2 | v14] gen=0.0007 cost=1.7755 valid=True
+[EVAL] generated=0.0012 cost=1.6800 -> VALID
+[Island 7 | v16] gen=0.0012 cost=1.6800 valid=True
+[EVAL] generated=0.0006 cost=2.0476 -> HIGH_COST
+[Island 1 | v16] gen=0.0006 cost=2.0476 valid=False
+[EVAL] generated=0.0042 cost=1.7200 -> VALID
+[Island 6 | v14] gen=0.0042 cost=1.7200 valid=True
+
+===== ROUND 13 SUMMARY =====
+Island 0 | best=0.0010 (gen=0.0010, cost=1.6531) | last=0.0008 | Δ=-0.0001 | n=15 | valid=9 | invalid=6 | valid_rate=0.60 | mean_cost=1.5939419073375192
+Island 1 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0006 | Δ=-0.0002 | n=7 | valid=2 | invalid=5 | valid_rate=0.29 | mean_cost=1.8590864916969154
+Island 2 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0007 | Δ=+0.0001 | n=15 | valid=14 | invalid=1 | valid_rate=0.93 | mean_cost=1.5847750463499546
+Island 3 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0006 | Δ=-0.0003 | n=7 | valid=2 | invalid=5 | valid_rate=0.29 | mean_cost=1.8386783284320953
+Island 4 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0007 | Δ=-0.0001 | n=7 | valid=3 | invalid=4 | valid_rate=0.43 | mean_cost=1.7968901846049135
+Island 5 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0009 | Δ=+0.0000 | n=15 | valid=12 | invalid=3 | valid_rate=0.80 | mean_cost=1.5654195011029401
+Island 6 | best=0.0012 (gen=0.0012, cost=1.5306) | last=0.0042 | Δ=+0.0030 | n=15 | valid=14 | invalid=1 | valid_rate=0.93 | mean_cost=67.90076360541843
+Island 7 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0012 | Δ=+0.0004 | n=7 | valid=4 | invalid=3 | valid_rate=0.57 | mean_cost=1.7919922254222709
+GLOBAL_BEST: island=2 v=13 score=0.0006 | gen=0.001 cost=1.776 | valid=True
+[CASE 1] cost=94, generated=7442, baseline_cost=64.0, baseline_generated=41124767.0
+          → cost_ratio=1.4687, generated_ratio=0.0002
+[CASE 2] cost=70, generated=2829, baseline_cost=42.0, baseline_generated=877023.0
+          → cost_ratio=1.6667, generated_ratio=0.0032
+[CASE 3] cost=87, generated=1230, baseline_cost=57.0, baseline_generated=1101072541.0
+          → cost_ratio=1.5263, generated_ratio=0.0000
+[CASE 4] cost=87, generated=1883, baseline_cost=59.0, baseline_generated=198758703.0
+          → cost_ratio=1.4746, generated_ratio=0.0000
+[CASE 5] cost=89, generated=1164, baseline_cost=61.0, baseline_generated=1957191378.0
+          → cost_ratio=1.4590, generated_ratio=0.0000
+[CASE 6] cost=84, generated=1600, baseline_cost=56.0, baseline_generated=26622863.0
+          → cost_ratio=1.5000, generated_ratio=0.0001
+[CASE 7] cost=81, generated=1126, baseline_cost=55.0, baseline_generated=15300442.0
+          → cost_ratio=1.4727, generated_ratio=0.0001
+[CASE 8] cost=66, generated=3787, baseline_cost=44.0, baseline_generated=8885972.0
+          → cost_ratio=1.5000, generated_ratio=0.0004
+[CASE 9] cost=66, generated=1223, baseline_cost=42.0, baseline_generated=17984051.0
+          → cost_ratio=1.5714, generated_ratio=0.0001
+[CASE 10] cost=66, generated=1536, baseline_cost=42.0, baseline_generated=540860.0
+          → cost_ratio=1.5714, generated_ratio=0.0028
+[CASE 11] cost=82, generated=915, baseline_cost=56.0, baseline_generated=1897728.0
+          → cost_ratio=1.4643, generated_ratio=0.0005
+[CASE 12] cost=75, generated=1174, baseline_cost=57.0, baseline_generated=150346072.0
+          → cost_ratio=1.3158, generated_ratio=0.0000
+[CASE 13] cost=77, generated=4309, baseline_cost=55.0, baseline_generated=1199487996.0
+          → cost_ratio=1.4000, generated_ratio=0.0000
+[CASE 14] cost=74, generated=3741, baseline_cost=50.0, baseline_generated=8841527.0
+          → cost_ratio=1.4800, generated_ratio=0.0004
+[CASE 15] cost=87, generated=2711, baseline_cost=49.0, baseline_generated=3222276.0
+          → cost_ratio=1.7755, generated_ratio=0.0008
+[EVAL] finished 15 puzzles (skipped=0)
+[EVAL] avg_generated_ratio=0.0005762, max_cost_ratio=1.7755102
+[Summary] round=13 best=island 2 v13 train(gen=0.0006, cost=1.7755) test=SKIPPED
+[EVAL] generated=0.0008 cost=1.9524 -> HIGH_COST
+[Island 0 | v15] gen=0.0008 cost=1.9524 valid=False
+[EVAL] generated=0.0013 cost=1.7143 -> VALID
+[Island 6 | v15] gen=0.0013 cost=1.7143 valid=True
+[EVAL] generated=0.0018 cost=2.0000 -> HIGH_COST
+[Island 7 | v17] gen=0.0018 cost=2.0000 valid=False
+[EVAL] generated=0.0007 cost=1.9062 -> HIGH_COST
+[Island 1 | v17] gen=0.0007 cost=1.9062 valid=False
+[EVAL] generated=0.0005 cost=1.9048 -> HIGH_COST
+[Island 4 | v17] gen=0.0005 cost=1.9048 valid=False
+[EVAL] generated=0.0006 cost=1.9048 -> HIGH_COST
+[Island 5 | v15] gen=0.0006 cost=1.9048 valid=False
+[EVAL] generated=0.0013 cost=1.7755 -> VALID
+[Island 2 | v15] gen=0.0013 cost=1.7755 valid=True
+[EVAL] generated=0.0057 cost=1.8571 -> HIGH_COST
+[Island 3 | v17] gen=0.0057 cost=1.8571 valid=False
+
+===== ROUND 14 SUMMARY =====
+Island 0 | best=0.0010 (gen=0.0010, cost=1.6531) | last=0.0008 | Δ=-0.0001 | n=16 | valid=9 | invalid=7 | valid_rate=0.56 | mean_cost=1.6163443476498285
+Island 1 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0007 | Δ=-0.0002 | n=8 | valid=2 | invalid=6 | valid_rate=0.25 | mean_cost=1.8649819302310777
+Island 2 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0013 | Δ=+0.0007 | n=16 | valid=15 | invalid=1 | valid_rate=0.94 | mean_cost=1.5966959937059197
+Island 3 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0057 | Δ=+0.0048 | n=8 | valid=2 | invalid=6 | valid_rate=0.25 | mean_cost=1.8409863945154132
+Island 4 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0005 | Δ=-0.0004 | n=8 | valid=3 | invalid=5 | valid_rate=0.38 | mean_cost=1.8103741496188683
+Island 5 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0006 | Δ=-0.0003 | n=16 | valid=12 | invalid=4 | valid_rate=0.75 | mean_cost=1.586628401328791
+Island 6 | best=0.0012 (gen=0.0012, cost=1.5306) | last=0.0013 | Δ=+0.0001 | n=16 | valid=15 | invalid=1 | valid_rate=0.94 | mean_cost=63.764108737220084
+Island 7 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0018 | Δ=+0.0009 | n=8 | valid=4 | invalid=4 | valid_rate=0.50 | mean_cost=1.8179931972400227
+GLOBAL_BEST: island=2 v=13 score=0.0006 | gen=0.001 cost=1.776 | valid=True
+[CASE 1] cost=94, generated=7442, baseline_cost=64.0, baseline_generated=41124767.0
+          → cost_ratio=1.4687, generated_ratio=0.0002
+[CASE 2] cost=70, generated=2829, baseline_cost=42.0, baseline_generated=877023.0
+          → cost_ratio=1.6667, generated_ratio=0.0032
+[CASE 3] cost=87, generated=1230, baseline_cost=57.0, baseline_generated=1101072541.0
+          → cost_ratio=1.5263, generated_ratio=0.0000
+[CASE 4] cost=87, generated=1883, baseline_cost=59.0, baseline_generated=198758703.0
+          → cost_ratio=1.4746, generated_ratio=0.0000
+[CASE 5] cost=89, generated=1164, baseline_cost=61.0, baseline_generated=1957191378.0
+          → cost_ratio=1.4590, generated_ratio=0.0000
+[CASE 6] cost=84, generated=1600, baseline_cost=56.0, baseline_generated=26622863.0
+          → cost_ratio=1.5000, generated_ratio=0.0001
+[CASE 7] cost=81, generated=1126, baseline_cost=55.0, baseline_generated=15300442.0
+          → cost_ratio=1.4727, generated_ratio=0.0001
+[CASE 8] cost=66, generated=3787, baseline_cost=44.0, baseline_generated=8885972.0
+          → cost_ratio=1.5000, generated_ratio=0.0004
+[CASE 9] cost=66, generated=1223, baseline_cost=42.0, baseline_generated=17984051.0
+          → cost_ratio=1.5714, generated_ratio=0.0001
+[CASE 10] cost=66, generated=1536, baseline_cost=42.0, baseline_generated=540860.0
+          → cost_ratio=1.5714, generated_ratio=0.0028
+[CASE 11] cost=82, generated=915, baseline_cost=56.0, baseline_generated=1897728.0
+          → cost_ratio=1.4643, generated_ratio=0.0005
+[CASE 12] cost=75, generated=1174, baseline_cost=57.0, baseline_generated=150346072.0
+          → cost_ratio=1.3158, generated_ratio=0.0000
+[CASE 13] cost=77, generated=4309, baseline_cost=55.0, baseline_generated=1199487996.0
+          → cost_ratio=1.4000, generated_ratio=0.0000
+[CASE 14] cost=74, generated=3741, baseline_cost=50.0, baseline_generated=8841527.0
+          → cost_ratio=1.4800, generated_ratio=0.0004
+[CASE 15] cost=87, generated=2711, baseline_cost=49.0, baseline_generated=3222276.0
+          → cost_ratio=1.7755, generated_ratio=0.0008
+[EVAL] finished 15 puzzles (skipped=0)
+[EVAL] avg_generated_ratio=0.0005762, max_cost_ratio=1.7755102
+[Summary] round=14 best=island 2 v13 train(gen=0.0006, cost=1.7755) test=SKIPPED
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[EVAL] generated=0.0006 cost=1.9048 -> HIGH_COST
+[Island 3 | v18] gen=0.0006 cost=1.9048 valid=False
+[WARN] eval failed: 'generator' object is not subscriptable
+[Island 1 | v18] gen=999.0000 cost=999.0000 valid=False
+[EVAL] generated=0.0017 cost=1.9796 -> HIGH_COST
+[Island 7 | v18] gen=0.0017 cost=1.9796 valid=False
+[EVAL] generated=0.0006 cost=1.9524 -> HIGH_COST
+[Island 0 | v16] gen=0.0006 cost=1.9524 valid=False
+[EVAL] generated=0.0018 cost=1.7143 -> VALID
+[Island 6 | v16] gen=0.0018 cost=1.7143 valid=True
+[EVAL] generated=0.0005 cost=1.9048 -> HIGH_COST
+[Island 4 | v18] gen=0.0005 cost=1.9048 valid=False
+[EVAL] generated=0.0012 cost=1.8571 -> HIGH_COST
+[Island 2 | v16] gen=0.0012 cost=1.8571 valid=False
+[EVAL] generated=0.0006 cost=1.9048 -> HIGH_COST
+[Island 5 | v16] gen=0.0006 cost=1.9048 valid=False
+
+===== ROUND 15 SUMMARY =====
+Island 0 | best=0.0010 (gen=0.0010, cost=1.6531) | last=0.0006 | Δ=-0.0004 | n=17 | valid=9 | invalid=8 | valid_rate=0.53 | mean_cost=1.6361112067489247
+Island 1 | best=0.0009 (gen=0.0009, cost=1.6122) | last=999.0000 | Δ=+998.9991 | n=9 | valid=2 | invalid=7 | valid_rate=0.22 | mean_cost=112.65776171576096
+Island 2 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0012 | Δ=+0.0006 | n=17 | valid=15 | invalid=2 | valid_rate=0.88 | mean_cost=1.6120163974349033
+Island 3 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0006 | Δ=-0.0002 | n=9 | valid=2 | invalid=7 | valid_rate=0.22 | mean_cost=1.84807256231554
+Island 4 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0005 | Δ=-0.0004 | n=9 | valid=3 | invalid=6 | valid_rate=0.33 | mean_cost=1.8208616779630558
+Island 5 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0006 | Δ=-0.0003 | n=17 | valid=12 | invalid=5 | valid_rate=0.71 | mean_cost=1.6053421368221887
+Island 6 | best=0.0012 (gen=0.0012, cost=1.5306) | last=0.0018 | Δ=+0.0006 | n=17 | valid=16 | invalid=1 | valid_rate=0.94 | mean_cost=60.11411914763331
+Island 7 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0017 | Δ=+0.0008 | n=9 | valid=4 | invalid=5 | valid_rate=0.44 | mean_cost=1.835948601623831
+GLOBAL_BEST: island=2 v=13 score=0.0006 | gen=0.001 cost=1.776 | valid=True
+[CASE 1] cost=94, generated=7442, baseline_cost=64.0, baseline_generated=41124767.0
+          → cost_ratio=1.4687, generated_ratio=0.0002
+[CASE 2] cost=70, generated=2829, baseline_cost=42.0, baseline_generated=877023.0
+          → cost_ratio=1.6667, generated_ratio=0.0032
+[CASE 3] cost=87, generated=1230, baseline_cost=57.0, baseline_generated=1101072541.0
+          → cost_ratio=1.5263, generated_ratio=0.0000
+[CASE 4] cost=87, generated=1883, baseline_cost=59.0, baseline_generated=198758703.0
+          → cost_ratio=1.4746, generated_ratio=0.0000
+[CASE 5] cost=89, generated=1164, baseline_cost=61.0, baseline_generated=1957191378.0
+          → cost_ratio=1.4590, generated_ratio=0.0000
+[CASE 6] cost=84, generated=1600, baseline_cost=56.0, baseline_generated=26622863.0
+          → cost_ratio=1.5000, generated_ratio=0.0001
+[CASE 7] cost=81, generated=1126, baseline_cost=55.0, baseline_generated=15300442.0
+          → cost_ratio=1.4727, generated_ratio=0.0001
+[CASE 8] cost=66, generated=3787, baseline_cost=44.0, baseline_generated=8885972.0
+          → cost_ratio=1.5000, generated_ratio=0.0004
+[CASE 9] cost=66, generated=1223, baseline_cost=42.0, baseline_generated=17984051.0
+          → cost_ratio=1.5714, generated_ratio=0.0001
+[CASE 10] cost=66, generated=1536, baseline_cost=42.0, baseline_generated=540860.0
+          → cost_ratio=1.5714, generated_ratio=0.0028
+[CASE 11] cost=82, generated=915, baseline_cost=56.0, baseline_generated=1897728.0
+          → cost_ratio=1.4643, generated_ratio=0.0005
+[CASE 12] cost=75, generated=1174, baseline_cost=57.0, baseline_generated=150346072.0
+          → cost_ratio=1.3158, generated_ratio=0.0000
+[CASE 13] cost=77, generated=4309, baseline_cost=55.0, baseline_generated=1199487996.0
+          → cost_ratio=1.4000, generated_ratio=0.0000
+[CASE 14] cost=74, generated=3741, baseline_cost=50.0, baseline_generated=8841527.0
+          → cost_ratio=1.4800, generated_ratio=0.0004
+[CASE 15] cost=87, generated=2711, baseline_cost=49.0, baseline_generated=3222276.0
+          → cost_ratio=1.7755, generated_ratio=0.0008
+[EVAL] finished 15 puzzles (skipped=0)
+[EVAL] avg_generated_ratio=0.0005762, max_cost_ratio=1.7755102
+[Summary] round=15 best=island 2 v13 train(gen=0.0006, cost=1.7755) test=SKIPPED
+[EVAL] generated=0.0014 cost=1.7755 -> VALID
+[Island 2 | v17] gen=0.0014 cost=1.7755 valid=True
+[EVAL] generated=0.0006 cost=1.9048 -> HIGH_COST
+[Island 7 | v19] gen=0.0006 cost=1.9048 valid=False
+[EVAL] generated=0.0005 cost=1.9048 -> HIGH_COST
+[Island 3 | v19] gen=0.0005 cost=1.9048 valid=False
+[EVAL] generated=0.0005 cost=1.9048 -> HIGH_COST
+[Island 4 | v19] gen=0.0005 cost=1.9048 valid=False
+[EVAL] generated=0.0005 cost=1.9048 -> HIGH_COST
+[Island 1 | v19] gen=0.0005 cost=1.9048 valid=False
+[EVAL] generated=0.0016 cost=1.5306 -> VALID
+[Island 6 | v17] gen=0.0016 cost=1.5306 valid=True
+[EVAL] generated=0.0006 cost=1.9048 -> HIGH_COST
+[Island 5 | v17] gen=0.0006 cost=1.9048 valid=False
+[EVAL] generated=0.0006 cost=1.9524 -> HIGH_COST
+[Island 0 | v17] gen=0.0006 cost=1.9524 valid=False
+
+===== ROUND 16 SUMMARY =====
+Island 0 | best=0.0010 (gen=0.0010, cost=1.6531) | last=0.0006 | Δ=-0.0003 | n=18 | valid=9 | invalid=9 | valid_rate=0.50 | mean_cost=1.6536817481703439
+Island 1 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0005 | Δ=-0.0003 | n=10 | valid=2 | invalid=8 | valid_rate=0.20 | mean_cost=101.58246173465652
+Island 2 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0014 | Δ=+0.0008 | n=18 | valid=16 | invalid=2 | valid_rate=0.89 | mean_cost=1.621099386691042
+Island 3 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0005 | Δ=-0.0004 | n=10 | valid=2 | invalid=8 | valid_rate=0.20 | mean_cost=1.8537414965556411
+Island 4 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0005 | Δ=-0.0004 | n=10 | valid=3 | invalid=7 | valid_rate=0.30 | mean_cost=1.8292517006384053
+Island 5 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0006 | Δ=-0.0002 | n=18 | valid=12 | invalid=6 | valid_rate=0.67 | mean_cost=1.6219765683718756
+Island 6 | best=0.0012 (gen=0.0012, cost=1.5306) | last=0.0016 | Δ=+0.0004 | n=18 | valid=17 | invalid=1 | valid_rate=0.94 | mean_cost=56.85947987525739
+Island 7 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0006 | Δ=-0.0002 | n=10 | valid=4 | invalid=6 | valid_rate=0.40 | mean_cost=1.8428299319331027
+GLOBAL_BEST: island=2 v=13 score=0.0006 | gen=0.001 cost=1.776 | valid=True
+[CASE 1] cost=94, generated=7442, baseline_cost=64.0, baseline_generated=41124767.0
+          → cost_ratio=1.4687, generated_ratio=0.0002
+[CASE 2] cost=70, generated=2829, baseline_cost=42.0, baseline_generated=877023.0
+          → cost_ratio=1.6667, generated_ratio=0.0032
+[CASE 3] cost=87, generated=1230, baseline_cost=57.0, baseline_generated=1101072541.0
+          → cost_ratio=1.5263, generated_ratio=0.0000
+[CASE 4] cost=87, generated=1883, baseline_cost=59.0, baseline_generated=198758703.0
+          → cost_ratio=1.4746, generated_ratio=0.0000
+[CASE 5] cost=89, generated=1164, baseline_cost=61.0, baseline_generated=1957191378.0
+          → cost_ratio=1.4590, generated_ratio=0.0000
+[CASE 6] cost=84, generated=1600, baseline_cost=56.0, baseline_generated=26622863.0
+          → cost_ratio=1.5000, generated_ratio=0.0001
+[CASE 7] cost=81, generated=1126, baseline_cost=55.0, baseline_generated=15300442.0
+          → cost_ratio=1.4727, generated_ratio=0.0001
+[CASE 8] cost=66, generated=3787, baseline_cost=44.0, baseline_generated=8885972.0
+          → cost_ratio=1.5000, generated_ratio=0.0004
+[CASE 9] cost=66, generated=1223, baseline_cost=42.0, baseline_generated=17984051.0
+          → cost_ratio=1.5714, generated_ratio=0.0001
+[CASE 10] cost=66, generated=1536, baseline_cost=42.0, baseline_generated=540860.0
+          → cost_ratio=1.5714, generated_ratio=0.0028
+[CASE 11] cost=82, generated=915, baseline_cost=56.0, baseline_generated=1897728.0
+          → cost_ratio=1.4643, generated_ratio=0.0005
+[CASE 12] cost=75, generated=1174, baseline_cost=57.0, baseline_generated=150346072.0
+          → cost_ratio=1.3158, generated_ratio=0.0000
+[CASE 13] cost=77, generated=4309, baseline_cost=55.0, baseline_generated=1199487996.0
+          → cost_ratio=1.4000, generated_ratio=0.0000
+[CASE 14] cost=74, generated=3741, baseline_cost=50.0, baseline_generated=8841527.0
+          → cost_ratio=1.4800, generated_ratio=0.0004
+[CASE 15] cost=87, generated=2711, baseline_cost=49.0, baseline_generated=3222276.0
+          → cost_ratio=1.7755, generated_ratio=0.0008
+[EVAL] finished 15 puzzles (skipped=0)
+[EVAL] avg_generated_ratio=0.0005762, max_cost_ratio=1.7755102
+[Summary] round=16 best=island 2 v13 train(gen=0.0006, cost=1.7755) test=SKIPPED
+
+=== CULL ===
+Survivors: [2, 1, 3, 4]
+Culled: [5, 7, 0, 6]
+[Inject] island 5
+   Injected elite with score=0.0006, cost=1.776, valid=True
+   Injected elite with score=0.0009, cost=1.612, valid=True
+[Inject] island 7
+   Injected elite with score=0.0006, cost=1.776, valid=True
+   Injected elite with score=0.0009, cost=1.612, valid=True
+[Inject] island 0
+   Injected elite with score=0.0006, cost=1.776, valid=True
+   Injected elite with score=0.0009, cost=1.612, valid=True
+[Inject] island 6
+   Injected elite with score=0.0006, cost=1.776, valid=True
+   Injected elite with score=0.0009, cost=1.612, valid=True
+
+===== ROUND 16 SUMMARY =====
+Island 0 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0009 | Δ=+0.0003 | n=2 | valid=2 | invalid=0 | valid_rate=1.00 | mean_cost=1.6938775509858393
+Island 1 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0005 | Δ=-0.0003 | n=10 | valid=2 | invalid=8 | valid_rate=0.20 | mean_cost=101.58246173465652
+Island 2 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0014 | Δ=+0.0008 | n=18 | valid=16 | invalid=2 | valid_rate=0.89 | mean_cost=1.621099386691042
+Island 3 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0005 | Δ=-0.0004 | n=10 | valid=2 | invalid=8 | valid_rate=0.20 | mean_cost=1.8537414965556411
+Island 4 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0005 | Δ=-0.0004 | n=10 | valid=3 | invalid=7 | valid_rate=0.30 | mean_cost=1.8292517006384053
+Island 5 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0009 | Δ=+0.0003 | n=2 | valid=2 | invalid=0 | valid_rate=1.00 | mean_cost=1.6938775509858393
+Island 6 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0009 | Δ=+0.0003 | n=2 | valid=2 | invalid=0 | valid_rate=1.00 | mean_cost=1.6938775509858393
+Island 7 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0009 | Δ=+0.0003 | n=2 | valid=2 | invalid=0 | valid_rate=1.00 | mean_cost=1.6938775509858393
+GLOBAL_BEST: island=0 v=18 score=0.0006 | gen=0.001 cost=1.776 | valid=True
+[WARN] eval failed: 'generator' object is not subscriptable
+[Island 1 | v20] gen=999.0000 cost=999.0000 valid=False
+[EVAL] generated=0.0005 cost=1.9048 -> HIGH_COST
+[Island 3 | v20] gen=0.0005 cost=1.9048 valid=False
+[EVAL] generated=0.0014 cost=1.7755 -> VALID
+[Island 2 | v18] gen=0.0014 cost=1.7755 valid=True
+[EVAL] generated=0.0005 cost=1.9048 -> HIGH_COST
+[Island 4 | v20] gen=0.0005 cost=1.9048 valid=False
+[EVAL] generated=0.0013 cost=1.7755 -> VALID
+[Island 6 | v20] gen=0.0013 cost=1.7755 valid=True
+[EVAL] generated=0.0012 cost=1.9048 -> HIGH_COST
+[Island 7 | v22] gen=0.0012 cost=1.9048 valid=False
+[EVAL] generated=0.0008 cost=1.9048 -> HIGH_COST
+[Island 0 | v20] gen=0.0008 cost=1.9048 valid=False
+[EVAL] generated=0.0009 cost=1.9048 -> HIGH_COST
+[Island 5 | v20] gen=0.0009 cost=1.9048 valid=False
+
+===== ROUND 17 SUMMARY =====
+Island 0 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0008 | Δ=+0.0002 | n=3 | valid=2 | invalid=1 | valid_rate=0.67 | mean_cost=1.764172335562744
+Island 1 | best=0.0009 (gen=0.0009, cost=1.6122) | last=999.0000 | Δ=+998.9991 | n=11 | valid=2 | invalid=9 | valid_rate=0.18 | mean_cost=183.1658743042332
+Island 2 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0014 | Δ=+0.0008 | n=19 | valid=17 | invalid=2 | valid_rate=0.89 | mean_cost=1.6292262718149555
+Island 3 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0005 | Δ=-0.0004 | n=11 | valid=2 | invalid=9 | valid_rate=0.18 | mean_cost=1.8583797154793606
+Island 4 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0005 | Δ=-0.0004 | n=11 | valid=3 | invalid=8 | valid_rate=0.27 | mean_cost=1.8361162646455098
+Island 5 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0009 | Δ=+0.0003 | n=3 | valid=2 | invalid=1 | valid_rate=0.67 | mean_cost=1.764172335562744
+Island 6 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0013 | Δ=+0.0007 | n=3 | valid=3 | invalid=0 | valid_rate=1.00 | mean_cost=1.7210884353390254
+Island 7 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0012 | Δ=+0.0007 | n=3 | valid=2 | invalid=1 | valid_rate=0.67 | mean_cost=1.764172335562744
+GLOBAL_BEST: island=0 v=18 score=0.0006 | gen=0.001 cost=1.776 | valid=True
+[CASE 1] cost=94, generated=7442, baseline_cost=64.0, baseline_generated=41124767.0
+          → cost_ratio=1.4687, generated_ratio=0.0002
+[CASE 2] cost=70, generated=2829, baseline_cost=42.0, baseline_generated=877023.0
+          → cost_ratio=1.6667, generated_ratio=0.0032
+[CASE 3] cost=87, generated=1230, baseline_cost=57.0, baseline_generated=1101072541.0
+          → cost_ratio=1.5263, generated_ratio=0.0000
+[CASE 4] cost=87, generated=1883, baseline_cost=59.0, baseline_generated=198758703.0
+          → cost_ratio=1.4746, generated_ratio=0.0000
+[CASE 5] cost=89, generated=1164, baseline_cost=61.0, baseline_generated=1957191378.0
+          → cost_ratio=1.4590, generated_ratio=0.0000
+[CASE 6] cost=84, generated=1600, baseline_cost=56.0, baseline_generated=26622863.0
+          → cost_ratio=1.5000, generated_ratio=0.0001
+[CASE 7] cost=81, generated=1126, baseline_cost=55.0, baseline_generated=15300442.0
+          → cost_ratio=1.4727, generated_ratio=0.0001
+[CASE 8] cost=66, generated=3787, baseline_cost=44.0, baseline_generated=8885972.0
+          → cost_ratio=1.5000, generated_ratio=0.0004
+[CASE 9] cost=66, generated=1223, baseline_cost=42.0, baseline_generated=17984051.0
+          → cost_ratio=1.5714, generated_ratio=0.0001
+[CASE 10] cost=66, generated=1536, baseline_cost=42.0, baseline_generated=540860.0
+          → cost_ratio=1.5714, generated_ratio=0.0028
+[CASE 11] cost=82, generated=915, baseline_cost=56.0, baseline_generated=1897728.0
+          → cost_ratio=1.4643, generated_ratio=0.0005
+[CASE 12] cost=75, generated=1174, baseline_cost=57.0, baseline_generated=150346072.0
+          → cost_ratio=1.3158, generated_ratio=0.0000
+[CASE 13] cost=77, generated=4309, baseline_cost=55.0, baseline_generated=1199487996.0
+          → cost_ratio=1.4000, generated_ratio=0.0000
+[CASE 14] cost=74, generated=3741, baseline_cost=50.0, baseline_generated=8841527.0
+          → cost_ratio=1.4800, generated_ratio=0.0004
+[CASE 15] cost=87, generated=2711, baseline_cost=49.0, baseline_generated=3222276.0
+          → cost_ratio=1.7755, generated_ratio=0.0008
+[EVAL] finished 15 puzzles (skipped=0)
+[EVAL] avg_generated_ratio=0.0005762, max_cost_ratio=1.7755102
+[Summary] round=17 best=island 0 v18 train(gen=0.0006, cost=1.7755) test=SKIPPED
+[EVAL] generated=0.0007 cost=1.8095 -> HIGH_COST
+[Island 5 | v21] gen=0.0007 cost=1.8095 valid=False
+[EVAL] generated=0.0015 cost=1.7755 -> VALID
+[Island 2 | v19] gen=0.0015 cost=1.7755 valid=True
+[EVAL] generated=0.0005 cost=1.9048 -> HIGH_COST
+[Island 4 | v21] gen=0.0005 cost=1.9048 valid=False
+[EVAL] generated=0.0006 cost=1.9048 -> HIGH_COST
+[Island 1 | v21] gen=0.0006 cost=1.9048 valid=False
+[EVAL] generated=0.0005 cost=1.9048 -> HIGH_COST
+[Island 3 | v21] gen=0.0005 cost=1.9048 valid=False
+[EVAL] generated=0.0009 cost=1.6122 -> VALID
+[Island 7 | v23] gen=0.0009 cost=1.6122 valid=True
+[EVAL] generated=0.0007 cost=1.7755 -> VALID
+[Island 0 | v21] gen=0.0007 cost=1.7755 valid=True
+[EVAL] generated=0.0008 cost=1.7018 -> VALID
+[Island 6 | v21] gen=0.0008 cost=1.7018 valid=True
+
+===== ROUND 18 SUMMARY =====
+Island 0 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0007 | Δ=+0.0001 | n=4 | valid=3 | invalid=1 | valid_rate=0.75 | mean_cost=1.7670068026834076
+Island 1 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0006 | Δ=-0.0003 | n=12 | valid=2 | invalid=10 | valid_rate=0.17 | mean_cost=168.06078160427347
+Island 2 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0015 | Δ=+0.0010 | n=20 | valid=18 | invalid=2 | valid_rate=0.90 | mean_cost=1.6365404684264775
+Island 3 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0005 | Δ=-0.0004 | n=12 | valid=2 | invalid=10 | valid_rate=0.17 | mean_cost=1.8622448979157935
+Island 4 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0005 | Δ=-0.0004 | n=12 | valid=3 | invalid=9 | valid_rate=0.25 | mean_cost=1.8418367346514302
+Island 5 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0007 | Δ=+0.0001 | n=4 | valid=2 | invalid=2 | valid_rate=0.50 | mean_cost=1.7755102040422395
+Island 6 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0008 | Δ=+0.0002 | n=4 | valid=4 | invalid=0 | valid_rate=1.00 | mean_cost=1.7162549229880333
+Island 7 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0009 | Δ=+0.0003 | n=4 | valid=3 | invalid=1 | valid_rate=0.75 | mean_cost=1.7261904761536282
+GLOBAL_BEST: island=0 v=18 score=0.0006 | gen=0.001 cost=1.776 | valid=True
+[CASE 1] cost=94, generated=7442, baseline_cost=64.0, baseline_generated=41124767.0
+          → cost_ratio=1.4687, generated_ratio=0.0002
+[CASE 2] cost=70, generated=2829, baseline_cost=42.0, baseline_generated=877023.0
+          → cost_ratio=1.6667, generated_ratio=0.0032
+[CASE 3] cost=87, generated=1230, baseline_cost=57.0, baseline_generated=1101072541.0
+          → cost_ratio=1.5263, generated_ratio=0.0000
+[CASE 4] cost=87, generated=1883, baseline_cost=59.0, baseline_generated=198758703.0
+          → cost_ratio=1.4746, generated_ratio=0.0000
+[CASE 5] cost=89, generated=1164, baseline_cost=61.0, baseline_generated=1957191378.0
+          → cost_ratio=1.4590, generated_ratio=0.0000
+[CASE 6] cost=84, generated=1600, baseline_cost=56.0, baseline_generated=26622863.0
+          → cost_ratio=1.5000, generated_ratio=0.0001
+[CASE 7] cost=81, generated=1126, baseline_cost=55.0, baseline_generated=15300442.0
+          → cost_ratio=1.4727, generated_ratio=0.0001
+[CASE 8] cost=66, generated=3787, baseline_cost=44.0, baseline_generated=8885972.0
+          → cost_ratio=1.5000, generated_ratio=0.0004
+[CASE 9] cost=66, generated=1223, baseline_cost=42.0, baseline_generated=17984051.0
+          → cost_ratio=1.5714, generated_ratio=0.0001
+[CASE 10] cost=66, generated=1536, baseline_cost=42.0, baseline_generated=540860.0
+          → cost_ratio=1.5714, generated_ratio=0.0028
+[CASE 11] cost=82, generated=915, baseline_cost=56.0, baseline_generated=1897728.0
+          → cost_ratio=1.4643, generated_ratio=0.0005
+[CASE 12] cost=75, generated=1174, baseline_cost=57.0, baseline_generated=150346072.0
+          → cost_ratio=1.3158, generated_ratio=0.0000
+[CASE 13] cost=77, generated=4309, baseline_cost=55.0, baseline_generated=1199487996.0
+          → cost_ratio=1.4000, generated_ratio=0.0000
+[CASE 14] cost=74, generated=3741, baseline_cost=50.0, baseline_generated=8841527.0
+          → cost_ratio=1.4800, generated_ratio=0.0004
+[CASE 15] cost=87, generated=2711, baseline_cost=49.0, baseline_generated=3222276.0
+          → cost_ratio=1.7755, generated_ratio=0.0008
+[EVAL] finished 15 puzzles (skipped=0)
+[EVAL] avg_generated_ratio=0.0005762, max_cost_ratio=1.7755102
+[Summary] round=18 best=island 0 v18 train(gen=0.0006, cost=1.7755) test=SKIPPED
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[WARN] strict JSON parse failed: Expecting ',' delimiter: line 2 column 1283 (char 1284)
+[WARN] unparsable code skipped: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 2)
+[WARN] no usable code found in model text head: {
+  "code": "from fifteen_state_class import State\n\ndef heuristic(s: State) -> int:\n    \"\"\"\n    This heuristic aims to significantly reduce the number of generated nodes by\n    aggressively pe...
+[WARN] model error: invalid payload
+[EVAL] generated=0.0007 cost=1.7755 -> VALID
+[Island 2 | v20] gen=0.0007 cost=1.7755 valid=True
+[EVAL] generated=0.0005 cost=1.9048 -> HIGH_COST
+[Island 4 | v22] gen=0.0005 cost=1.9048 valid=False
+[EVAL] generated=0.0007 cost=1.9048 -> HIGH_COST
+[Island 3 | v22] gen=0.0007 cost=1.9048 valid=False
+[EVAL] generated=0.0007 cost=1.7755 -> VALID
+[Island 5 | v22] gen=0.0007 cost=1.7755 valid=True
+[EVAL] generated=0.0005 cost=1.7368 -> VALID
+[Island 6 | v22] gen=0.0005 cost=1.7368 valid=True
+[EVAL] generated=0.0013 cost=2.0909 -> HIGH_COST
+[Island 1 | v22] gen=0.0013 cost=2.0909 valid=False
+[EVAL] generated=0.0006 cost=1.8571 -> HIGH_COST
+[Island 0 | v22] gen=0.0006 cost=1.8571 valid=False
+[EVAL] generated=0.0009 cost=1.8095 -> HIGH_COST
+[Island 7 | v24] gen=0.0009 cost=1.8095 valid=False
+
+===== ROUND 19 SUMMARY =====
+Island 0 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0006 | Δ=-0.0000 | n=5 | valid=3 | invalid=2 | valid_rate=0.60 | mean_cost=1.7850340135664537
+Island 1 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0013 | Δ=+0.0005 | n=13 | valid=2 | invalid=11 | valid_rate=0.15 | mean_cost=155.29386833401102
+Island 2 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0007 | Δ=+0.0001 | n=21 | valid=19 | invalid=2 | valid_rate=0.90 | mean_cost=1.6431580748845211
+Island 3 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0007 | Δ=-0.0001 | n=13 | valid=2 | invalid=11 | valid_rate=0.15 | mean_cost=1.8655154369004672
+Island 4 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0005 | Δ=-0.0004 | n=13 | valid=3 | invalid=10 | valid_rate=0.23 | mean_cost=1.8466771323487472
+Island 5 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0007 | Δ=+0.0001 | n=5 | valid=3 | invalid=2 | valid_rate=0.60 | mean_cost=1.775510204042871
+Island 6 | best=0.0005 (gen=0.0005, cost=1.7368) | last=0.0005 | Δ=+0.0000 | n=5 | valid=5 | invalid=0 | valid_rate=1.00 | mean_cost=1.7203723594369642
+Island 7 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0009 | Δ=+0.0003 | n=5 | valid=3 | invalid=2 | valid_rate=0.60 | mean_cost=1.7428571428190476
+GLOBAL_BEST: island=6 v=22 score=0.0005 | gen=0.001 cost=1.737 | valid=True
+[CASE 1] cost=90, generated=1260, baseline_cost=64.0, baseline_generated=41124767.0
+          → cost_ratio=1.4062, generated_ratio=0.0000
+[CASE 2] cost=70, generated=1934, baseline_cost=42.0, baseline_generated=877023.0
+          → cost_ratio=1.6667, generated_ratio=0.0022
+[CASE 3] cost=99, generated=1961, baseline_cost=57.0, baseline_generated=1101072541.0
+          → cost_ratio=1.7368, generated_ratio=0.0000
+[CASE 4] cost=81, generated=2647, baseline_cost=59.0, baseline_generated=198758703.0
+          → cost_ratio=1.3729, generated_ratio=0.0000
+[CASE 5] cost=89, generated=1080, baseline_cost=61.0, baseline_generated=1957191378.0
+          → cost_ratio=1.4590, generated_ratio=0.0000
+[CASE 6] cost=84, generated=1572, baseline_cost=56.0, baseline_generated=26622863.0
+          → cost_ratio=1.5000, generated_ratio=0.0001
+[CASE 7] cost=77, generated=614, baseline_cost=55.0, baseline_generated=15300442.0
+          → cost_ratio=1.4000, generated_ratio=0.0000
+[CASE 8] cost=62, generated=2899, baseline_cost=44.0, baseline_generated=8885972.0
+          → cost_ratio=1.4091, generated_ratio=0.0003
+[CASE 9] cost=54, generated=1187, baseline_cost=42.0, baseline_generated=17984051.0
+          → cost_ratio=1.2857, generated_ratio=0.0001
+[CASE 10] cost=68, generated=1541, baseline_cost=42.0, baseline_generated=540860.0
+          → cost_ratio=1.6190, generated_ratio=0.0028
+[CASE 11] cost=82, generated=943, baseline_cost=56.0, baseline_generated=1897728.0
+          → cost_ratio=1.4643, generated_ratio=0.0005
+[CASE 12] cost=87, generated=1441, baseline_cost=57.0, baseline_generated=150346072.0
+          → cost_ratio=1.5263, generated_ratio=0.0000
+[CASE 13] cost=77, generated=7963, baseline_cost=55.0, baseline_generated=1199487996.0
+          → cost_ratio=1.4000, generated_ratio=0.0000
+[CASE 14] cost=74, generated=3000, baseline_cost=50.0, baseline_generated=8841527.0
+          → cost_ratio=1.4800, generated_ratio=0.0003
+[CASE 15] cost=81, generated=3506, baseline_cost=49.0, baseline_generated=3222276.0
+          → cost_ratio=1.6531, generated_ratio=0.0011
+[EVAL] finished 15 puzzles (skipped=0)
+[EVAL] avg_generated_ratio=0.0005022, max_cost_ratio=1.7368421
+[Summary] round=19 best=island 6 v22 train(gen=0.0005, cost=1.7368) test=SKIPPED
+[EVAL] generated=0.0013 cost=1.7755 -> VALID
+[Island 0 | v23] gen=0.0013 cost=1.7755 valid=True
+[EVAL] generated=0.0007 cost=1.7755 -> VALID
+[Island 2 | v21] gen=0.0007 cost=1.7755 valid=True
+[EVAL] generated=0.0005 cost=1.9048 -> HIGH_COST
+[Island 4 | v23] gen=0.0005 cost=1.9048 valid=False
+[EVAL] generated=0.0005 cost=1.9048 -> HIGH_COST
+[Island 3 | v23] gen=0.0005 cost=1.9048 valid=False
+[EVAL] generated=0.0007 cost=1.7755 -> VALID
+[Island 5 | v23] gen=0.0007 cost=1.7755 valid=True
+[EVAL] generated=0.0009 cost=1.7755 -> VALID
+[Island 6 | v23] gen=0.0009 cost=1.7755 valid=True
+[EVAL] generated=0.0014 cost=1.8000 -> VALID
+[Island 1 | v23] gen=0.0014 cost=1.8000 valid=True
+[EVAL] generated=0.0007 cost=1.7018 -> VALID
+[Island 7 | v25] gen=0.0007 cost=1.7018 valid=True
+
+===== ROUND 20 SUMMARY =====
+Island 0 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0013 | Δ=+0.0007 | n=6 | valid=4 | invalid=2 | valid_rate=0.67 | mean_cost=1.7834467119796111
+Island 1 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0014 | Δ=+0.0005 | n=14 | valid=3 | invalid=11 | valid_rate=0.21 | mean_cost=144.3300205958648
+Island 2 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0007 | Δ=+0.0001 | n=22 | valid=20 | invalid=2 | valid_rate=0.91 | mean_cost=1.64917408075547
+Island 3 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0005 | Δ=-0.0004 | n=14 | valid=2 | invalid=12 | valid_rate=0.14 | mean_cost=1.8683187560301877
+Island 4 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0005 | Δ=-0.0004 | n=14 | valid=3 | invalid=11 | valid_rate=0.21 | mean_cost=1.8508260446607334
+Island 5 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0007 | Δ=+0.0001 | n=6 | valid=4 | invalid=2 | valid_rate=0.67 | mean_cost=1.7755102040432922
+Island 6 | best=0.0005 (gen=0.0005, cost=1.7368) | last=0.0009 | Δ=+0.0004 | n=6 | valid=6 | invalid=0 | valid_rate=1.00 | mean_cost=1.7295620002050365
+Island 7 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0007 | Δ=+0.0002 | n=6 | valid=4 | invalid=2 | valid_rate=0.67 | mean_cost=1.7360066833383827
+GLOBAL_BEST: island=6 v=22 score=0.0005 | gen=0.001 cost=1.737 | valid=True
+[CASE 1] cost=90, generated=1260, baseline_cost=64.0, baseline_generated=41124767.0
+          → cost_ratio=1.4062, generated_ratio=0.0000
+[CASE 2] cost=70, generated=1934, baseline_cost=42.0, baseline_generated=877023.0
+          → cost_ratio=1.6667, generated_ratio=0.0022
+[CASE 3] cost=99, generated=1961, baseline_cost=57.0, baseline_generated=1101072541.0
+          → cost_ratio=1.7368, generated_ratio=0.0000
+[CASE 4] cost=81, generated=2647, baseline_cost=59.0, baseline_generated=198758703.0
+          → cost_ratio=1.3729, generated_ratio=0.0000
+[CASE 5] cost=89, generated=1080, baseline_cost=61.0, baseline_generated=1957191378.0
+          → cost_ratio=1.4590, generated_ratio=0.0000
+[CASE 6] cost=84, generated=1572, baseline_cost=56.0, baseline_generated=26622863.0
+          → cost_ratio=1.5000, generated_ratio=0.0001
+[CASE 7] cost=77, generated=614, baseline_cost=55.0, baseline_generated=15300442.0
+          → cost_ratio=1.4000, generated_ratio=0.0000
+[CASE 8] cost=62, generated=2899, baseline_cost=44.0, baseline_generated=8885972.0
+          → cost_ratio=1.4091, generated_ratio=0.0003
+[CASE 9] cost=54, generated=1187, baseline_cost=42.0, baseline_generated=17984051.0
+          → cost_ratio=1.2857, generated_ratio=0.0001
+[CASE 10] cost=68, generated=1541, baseline_cost=42.0, baseline_generated=540860.0
+          → cost_ratio=1.6190, generated_ratio=0.0028
+[CASE 11] cost=82, generated=943, baseline_cost=56.0, baseline_generated=1897728.0
+          → cost_ratio=1.4643, generated_ratio=0.0005
+[CASE 12] cost=87, generated=1441, baseline_cost=57.0, baseline_generated=150346072.0
+          → cost_ratio=1.5263, generated_ratio=0.0000
+[CASE 13] cost=77, generated=7963, baseline_cost=55.0, baseline_generated=1199487996.0
+          → cost_ratio=1.4000, generated_ratio=0.0000
+[CASE 14] cost=74, generated=3000, baseline_cost=50.0, baseline_generated=8841527.0
+          → cost_ratio=1.4800, generated_ratio=0.0003
+[CASE 15] cost=81, generated=3506, baseline_cost=49.0, baseline_generated=3222276.0
+          → cost_ratio=1.6531, generated_ratio=0.0011
+[EVAL] finished 15 puzzles (skipped=0)
+[EVAL] avg_generated_ratio=0.0005022, max_cost_ratio=1.7368421
+[Summary] round=20 best=island 6 v22 train(gen=0.0005, cost=1.7368) test=SKIPPED
+[EVAL] generated=0.0006 cost=1.7755 -> VALID
+[Island 5 | v24] gen=0.0006 cost=1.7755 valid=True
+[EVAL] generated=0.0013 cost=1.7755 -> VALID
+[Island 2 | v22] gen=0.0013 cost=1.7755 valid=True
+[EVAL] generated=0.0017 cost=1.9796 -> HIGH_COST
+[Island 4 | v24] gen=0.0017 cost=1.9796 valid=False
+[EVAL] generated=0.0007 cost=1.9048 -> HIGH_COST
+[Island 3 | v24] gen=0.0007 cost=1.9048 valid=False
+[EVAL] generated=0.0005 cost=1.8636 -> HIGH_COST
+[Island 6 | v24] gen=0.0005 cost=1.8636 valid=False
+[EVAL] generated=0.0006 cost=1.9048 -> HIGH_COST
+[Island 1 | v24] gen=0.0006 cost=1.9048 valid=False
+[EVAL] generated=0.0006 cost=1.7755 -> VALID
+[Island 7 | v26] gen=0.0006 cost=1.7755 valid=True
+[EVAL] generated=0.0022 cost=1.7619 -> VALID
+[Island 0 | v24] gen=0.0022 cost=1.7619 valid=True
+
+===== ROUND 21 SUMMARY =====
+Island 0 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0022 | Δ=+0.0016 | n=7 | valid=5 | invalid=2 | valid_rate=0.71 | mean_cost=1.7803692905343542
+Island 1 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0006 | Δ=-0.0003 | n=15 | valid=3 | invalid=12 | valid_rate=0.20 | mean_cost=134.83500334978825
+Island 2 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0013 | Δ=+0.0007 | n=23 | valid=21 | invalid=2 | valid_rate=0.91 | mean_cost=1.6546669556811193
+Island 3 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0007 | Δ=-0.0002 | n=15 | valid=2 | invalid=13 | valid_rate=0.13 | mean_cost=1.8707482992759452
+Island 4 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0017 | Δ=+0.0008 | n=15 | valid=3 | invalid=12 | valid_rate=0.20 | mean_cost=1.8594104307963042
+Island 5 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0006 | Δ=+0.0000 | n=7 | valid=5 | invalid=2 | valid_rate=0.71 | mean_cost=1.775510204043593
+Island 6 | best=0.0005 (gen=0.0005, cost=1.7368) | last=0.0005 | Δ=-0.0000 | n=7 | valid=6 | invalid=1 | valid_rate=0.86 | mean_cost=1.7487154806891752
+Island 7 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0006 | Δ=+0.0000 | n=7 | valid=5 | invalid=2 | valid_rate=0.71 | mean_cost=1.741650043439385
+GLOBAL_BEST: island=6 v=22 score=0.0005 | gen=0.001 cost=1.737 | valid=True
+[CASE 1] cost=90, generated=1260, baseline_cost=64.0, baseline_generated=41124767.0
+          → cost_ratio=1.4062, generated_ratio=0.0000
+[CASE 2] cost=70, generated=1934, baseline_cost=42.0, baseline_generated=877023.0
+          → cost_ratio=1.6667, generated_ratio=0.0022
+[CASE 3] cost=99, generated=1961, baseline_cost=57.0, baseline_generated=1101072541.0
+          → cost_ratio=1.7368, generated_ratio=0.0000
+[CASE 4] cost=81, generated=2647, baseline_cost=59.0, baseline_generated=198758703.0
+          → cost_ratio=1.3729, generated_ratio=0.0000
+[CASE 5] cost=89, generated=1080, baseline_cost=61.0, baseline_generated=1957191378.0
+          → cost_ratio=1.4590, generated_ratio=0.0000
+[CASE 6] cost=84, generated=1572, baseline_cost=56.0, baseline_generated=26622863.0
+          → cost_ratio=1.5000, generated_ratio=0.0001
+[CASE 7] cost=77, generated=614, baseline_cost=55.0, baseline_generated=15300442.0
+          → cost_ratio=1.4000, generated_ratio=0.0000
+[CASE 8] cost=62, generated=2899, baseline_cost=44.0, baseline_generated=8885972.0
+          → cost_ratio=1.4091, generated_ratio=0.0003
+[CASE 9] cost=54, generated=1187, baseline_cost=42.0, baseline_generated=17984051.0
+          → cost_ratio=1.2857, generated_ratio=0.0001
+[CASE 10] cost=68, generated=1541, baseline_cost=42.0, baseline_generated=540860.0
+          → cost_ratio=1.6190, generated_ratio=0.0028
+[CASE 11] cost=82, generated=943, baseline_cost=56.0, baseline_generated=1897728.0
+          → cost_ratio=1.4643, generated_ratio=0.0005
+[CASE 12] cost=87, generated=1441, baseline_cost=57.0, baseline_generated=150346072.0
+          → cost_ratio=1.5263, generated_ratio=0.0000
+[CASE 13] cost=77, generated=7963, baseline_cost=55.0, baseline_generated=1199487996.0
+          → cost_ratio=1.4000, generated_ratio=0.0000
+[CASE 14] cost=74, generated=3000, baseline_cost=50.0, baseline_generated=8841527.0
+          → cost_ratio=1.4800, generated_ratio=0.0003
+[CASE 15] cost=81, generated=3506, baseline_cost=49.0, baseline_generated=3222276.0
+          → cost_ratio=1.6531, generated_ratio=0.0011
+[EVAL] finished 15 puzzles (skipped=0)
+[EVAL] avg_generated_ratio=0.0005022, max_cost_ratio=1.7368421
+[Summary] round=21 best=island 6 v22 train(gen=0.0005, cost=1.7368) test=SKIPPED
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[EVAL] generated=0.0005 cost=1.9048 -> HIGH_COST
+[Island 1 | v25] gen=0.0005 cost=1.9048 valid=False
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[EVAL] generated=0.0014 cost=1.7755 -> VALID
+[Island 2 | v23] gen=0.0014 cost=1.7755 valid=True
+[WARN] model error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[EVAL] generated=0.0006 cost=1.9048 -> HIGH_COST
+[Island 3 | v25] gen=0.0006 cost=1.9048 valid=False
+[EVAL] generated=0.0019 cost=1.7755 -> VALID
+[Island 7 | v27] gen=0.0019 cost=1.7755 valid=True
+[EVAL] generated=0.0007 cost=1.9048 -> HIGH_COST
+[Island 4 | v25] gen=0.0007 cost=1.9048 valid=False
+[EVAL] generated=0.0006 cost=1.7755 -> VALID
+[Island 5 | v25] gen=0.0006 cost=1.7755 valid=True
+[EVAL] generated=0.0006 cost=1.7619 -> VALID
+[Island 6 | v25] gen=0.0006 cost=1.7619 valid=True
+[EVAL] generated=0.0008 cost=1.8571 -> HIGH_COST
+[Island 0 | v25] gen=0.0008 cost=1.8571 valid=False
+
+===== ROUND 22 SUMMARY =====
+Island 0 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0008 | Δ=+0.0002 | n=8 | valid=5 | invalid=3 | valid_rate=0.62 | mean_cost=1.7899659863556794
+Island 1 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0005 | Δ=-0.0003 | n=16 | valid=3 | invalid=13 | valid_rate=0.19 | mean_cost=126.52686325947127
+Island 2 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0014 | Δ=+0.0008 | n=24 | valid=22 | invalid=2 | valid_rate=0.92 | mean_cost=1.659702091029631
+Island 3 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0006 | Δ=-0.0002 | n=16 | valid=2 | invalid=14 | valid_rate=0.12 | mean_cost=1.8728741496159833
+Island 4 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0007 | Δ=-0.0001 | n=16 | valid=3 | invalid=13 | valid_rate=0.19 | mean_cost=1.8622448979163198
+Island 5 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0006 | Δ=+0.0000 | n=8 | valid=6 | invalid=2 | valid_rate=0.75 | mean_cost=1.7755102040438187
+Island 6 | best=0.0005 (gen=0.0005, cost=1.7368) | last=0.0006 | Δ=+0.0001 | n=8 | valid=7 | invalid=1 | valid_rate=0.88 | mean_cost=1.7503641408358799
+Island 7 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0019 | Δ=+0.0013 | n=8 | valid=6 | invalid=2 | valid_rate=0.75 | mean_cost=1.7458825635151365
+GLOBAL_BEST: island=6 v=22 score=0.0005 | gen=0.001 cost=1.737 | valid=True
+[CASE 1] cost=90, generated=1260, baseline_cost=64.0, baseline_generated=41124767.0
+          → cost_ratio=1.4062, generated_ratio=0.0000
+[CASE 2] cost=70, generated=1934, baseline_cost=42.0, baseline_generated=877023.0
+          → cost_ratio=1.6667, generated_ratio=0.0022
+[CASE 3] cost=99, generated=1961, baseline_cost=57.0, baseline_generated=1101072541.0
+          → cost_ratio=1.7368, generated_ratio=0.0000
+[CASE 4] cost=81, generated=2647, baseline_cost=59.0, baseline_generated=198758703.0
+          → cost_ratio=1.3729, generated_ratio=0.0000
+[CASE 5] cost=89, generated=1080, baseline_cost=61.0, baseline_generated=1957191378.0
+          → cost_ratio=1.4590, generated_ratio=0.0000
+[CASE 6] cost=84, generated=1572, baseline_cost=56.0, baseline_generated=26622863.0
+          → cost_ratio=1.5000, generated_ratio=0.0001
+[CASE 7] cost=77, generated=614, baseline_cost=55.0, baseline_generated=15300442.0
+          → cost_ratio=1.4000, generated_ratio=0.0000
+[CASE 8] cost=62, generated=2899, baseline_cost=44.0, baseline_generated=8885972.0
+          → cost_ratio=1.4091, generated_ratio=0.0003
+[CASE 9] cost=54, generated=1187, baseline_cost=42.0, baseline_generated=17984051.0
+          → cost_ratio=1.2857, generated_ratio=0.0001
+[CASE 10] cost=68, generated=1541, baseline_cost=42.0, baseline_generated=540860.0
+          → cost_ratio=1.6190, generated_ratio=0.0028
+[CASE 11] cost=82, generated=943, baseline_cost=56.0, baseline_generated=1897728.0
+          → cost_ratio=1.4643, generated_ratio=0.0005
+[CASE 12] cost=87, generated=1441, baseline_cost=57.0, baseline_generated=150346072.0
+          → cost_ratio=1.5263, generated_ratio=0.0000
+[CASE 13] cost=77, generated=7963, baseline_cost=55.0, baseline_generated=1199487996.0
+          → cost_ratio=1.4000, generated_ratio=0.0000
+[CASE 14] cost=74, generated=3000, baseline_cost=50.0, baseline_generated=8841527.0
+          → cost_ratio=1.4800, generated_ratio=0.0003
+[CASE 15] cost=81, generated=3506, baseline_cost=49.0, baseline_generated=3222276.0
+          → cost_ratio=1.6531, generated_ratio=0.0011
+[EVAL] finished 15 puzzles (skipped=0)
+[EVAL] avg_generated_ratio=0.0005022, max_cost_ratio=1.7368421
+[Summary] round=22 best=island 6 v22 train(gen=0.0005, cost=1.7368) test=SKIPPED
+[EVAL] generated=0.0006 cost=1.9048 -> HIGH_COST
+[Island 4 | v26] gen=0.0006 cost=1.9048 valid=False
+[EVAL] generated=0.0006 cost=1.6667 -> VALID
+[Island 7 | v28] gen=0.0006 cost=1.6667 valid=True
+[EVAL] generated=0.0005 cost=1.7619 -> VALID
+[Island 6 | v26] gen=0.0005 cost=1.7619 valid=True
+[EVAL] generated=0.0006 cost=1.9048 -> HIGH_COST
+[Island 3 | v26] gen=0.0006 cost=1.9048 valid=False
+[EVAL] generated=0.0005 cost=1.9048 -> HIGH_COST
+[Island 1 | v26] gen=0.0005 cost=1.9048 valid=False
+[EVAL] generated=0.0062 cost=1.8571 -> HIGH_COST
+[Island 2 | v24] gen=0.0062 cost=1.8571 valid=False
+[EVAL] generated=0.0006 cost=1.7755 -> VALID
+[Island 0 | v26] gen=0.0006 cost=1.7755 valid=True
+[EVAL] generated=0.0023 cost=1.9048 -> HIGH_COST
+[Island 5 | v26] gen=0.0023 cost=1.9048 valid=False
+
+===== ROUND 23 SUMMARY =====
+Island 0 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0006 | Δ=+0.0000 | n=9 | valid=6 | invalid=3 | valid_rate=0.67 | mean_cost=1.788359788321204
+Island 1 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0005 | Δ=-0.0003 | n=17 | valid=3 | invalid=14 | valid_rate=0.18 | mean_cost=119.19615141507394
+Island 2 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0062 | Δ=+0.0056 | n=25 | valid=22 | invalid=3 | valid_rate=0.88 | mean_cost=1.6675997216723912
+Island 3 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0006 | Δ=-0.0003 | n=17 | valid=2 | invalid=15 | valid_rate=0.12 | mean_cost=1.8747498999160168
+Island 4 | best=0.0009 (gen=0.0009, cost=1.6122) | last=0.0006 | Δ=-0.0003 | n=17 | valid=3 | invalid=14 | valid_rate=0.18 | mean_cost=1.8647458983163334
+Island 5 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0023 | Δ=+0.0018 | n=9 | valid=6 | invalid=3 | valid_rate=0.67 | mean_cost=1.7898715041185669
+Island 6 | best=0.0005 (gen=0.0005, cost=1.7619) | last=0.0005 | Δ=+0.0000 | n=9 | valid=8 | invalid=1 | valid_rate=0.89 | mean_cost=1.7516464320610945
+Island 7 | best=0.0006 (gen=0.0006, cost=1.7755) | last=0.0006 | Δ=+0.0000 | n=9 | valid=7 | invalid=2 | valid_rate=0.78 | mean_cost=1.737080797195391
+GLOBAL_BEST: island=6 v=26 score=0.0005 | gen=0.000 cost=1.762 | valid=True
+[CASE 1] cost=84, generated=2525, baseline_cost=64.0, baseline_generated=41124767.0
+          → cost_ratio=1.3125, generated_ratio=0.0001
+[CASE 2] cost=74, generated=1676, baseline_cost=42.0, baseline_generated=877023.0
+          → cost_ratio=1.7619, generated_ratio=0.0019
+[CASE 3] cost=87, generated=1527, baseline_cost=57.0, baseline_generated=1101072541.0
+          → cost_ratio=1.5263, generated_ratio=0.0000
+[CASE 4] cost=83, generated=2155, baseline_cost=59.0, baseline_generated=198758703.0
+          → cost_ratio=1.4068, generated_ratio=0.0000
+[CASE 5] cost=81, generated=1271, baseline_cost=61.0, baseline_generated=1957191378.0
+          → cost_ratio=1.3279, generated_ratio=0.0000
+[CASE 6] cost=84, generated=1591, baseline_cost=56.0, baseline_generated=26622863.0
+          → cost_ratio=1.5000, generated_ratio=0.0001
+[CASE 7] cost=91, generated=2133, baseline_cost=55.0, baseline_generated=15300442.0
+          → cost_ratio=1.6545, generated_ratio=0.0001
+[CASE 8] cost=66, generated=1765, baseline_cost=44.0, baseline_generated=8885972.0
+          → cost_ratio=1.5000, generated_ratio=0.0002
+[CASE 9] cost=54, generated=1477, baseline_cost=42.0, baseline_generated=17984051.0
+          → cost_ratio=1.2857, generated_ratio=0.0001
+[CASE 10] cost=68, generated=1606, baseline_cost=42.0, baseline_generated=540860.0
+          → cost_ratio=1.6190, generated_ratio=0.0030
+[CASE 11] cost=82, generated=837, baseline_cost=56.0, baseline_generated=1897728.0
+          → cost_ratio=1.4643, generated_ratio=0.0004
+[CASE 12] cost=87, generated=1389, baseline_cost=57.0, baseline_generated=150346072.0
+          → cost_ratio=1.5263, generated_ratio=0.0000
+[CASE 13] cost=81, generated=5782, baseline_cost=55.0, baseline_generated=1199487996.0
+          → cost_ratio=1.4727, generated_ratio=0.0000
+[CASE 14] cost=74, generated=1485, baseline_cost=50.0, baseline_generated=8841527.0
+          → cost_ratio=1.4800, generated_ratio=0.0002
+[CASE 15] cost=81, generated=3930, baseline_cost=49.0, baseline_generated=3222276.0
+          → cost_ratio=1.6531, generated_ratio=0.0012
+[EVAL] finished 15 puzzles (skipped=0)
+[EVAL] avg_generated_ratio=0.0004852, max_cost_ratio=1.7619048
+[Summary] round=23 best=island 6 v26 train(gen=0.0005, cost=1.7619) test=SKIPPED
+
+=== Final Results ===
+Island 0: v18 score=0.0006 (valid, cost ≤ 1.8)
+Island 1: v10 score=0.0009 (valid, cost ≤ 1.8)
+Island 2: v13 score=0.0006 (valid, cost ≤ 1.8)
+Island 3: v10 score=0.0009 (valid, cost ≤ 1.8)
+Island 4: v10 score=0.0009 (valid, cost ≤ 1.8)
+Island 5: v18 score=0.0006 (valid, cost ≤ 1.8)
+Island 6: v26 score=0.0005 (valid, cost ≤ 1.8)
+Island 7: v26 score=0.0006 (valid, cost ≤ 1.8)
+
+GLOBAL BEST: island=6 v=26 score=0.0005 | gen=0.000 cost=1.762 | valid=True
+
+=== BEST CHECKPOINT HISTORY ===
+round | island |  v |    score | gen_train | cost_train | gen_test | cost_test
+------+--------+----+----------+-----------+------------+----------+----------
+    1 |      2 |  2 | 0.003268 |  0.003268 |   1.218750 |      nan |       nan
+    2 |      2 |  3 | 0.001225 |  0.001225 |   1.530612 |      nan |       nan
+    3 |      0 |  4 | 0.001225 |  0.001225 |   1.530612 |      nan |       nan
+    4 |      2 |  5 | 0.001218 |  0.001218 |   1.714286 |      nan |       nan
+    5 |      0 |  6 | 0.000982 |  0.000982 |   1.734694 |      nan |       nan
+    6 |      0 |  6 | 0.000982 |  0.000982 |   1.734694 |      nan |       nan
+    7 |      5 |  8 | 0.000971 |  0.000971 |   1.612245 |      nan |       nan
+    8 |      5 |  9 | 0.000862 |  0.000862 |   1.612245 |      nan |       nan
+    9 |      1 | 10 | 0.000862 |  0.000862 |   1.612245 |      nan |       nan
+   10 |      1 | 10 | 0.000862 |  0.000862 |   1.612245 |      nan |       nan
+   11 |      1 | 10 | 0.000862 |  0.000862 |   1.612245 |      nan |       nan
+   12 |      2 | 13 | 0.000576 |  0.000576 |   1.775510 |      nan |       nan
+   13 |      2 | 13 | 0.000576 |  0.000576 |   1.775510 |      nan |       nan
+   14 |      2 | 13 | 0.000576 |  0.000576 |   1.775510 |      nan |       nan
+   15 |      2 | 13 | 0.000576 |  0.000576 |   1.775510 |      nan |       nan
+   16 |      2 | 13 | 0.000576 |  0.000576 |   1.775510 |      nan |       nan
+   17 |      0 | 18 | 0.000576 |  0.000576 |   1.775510 |      nan |       nan
+   18 |      0 | 18 | 0.000576 |  0.000576 |   1.775510 |      nan |       nan
+   19 |      6 | 22 | 0.000502 |  0.000502 |   1.736842 |      nan |       nan
+   20 |      6 | 22 | 0.000502 |  0.000502 |   1.736842 |      nan |       nan
+   21 |      6 | 22 | 0.000502 |  0.000502 |   1.736842 |      nan |       nan
+   22 |      6 | 22 | 0.000502 |  0.000502 |   1.736842 |      nan |       nan
+   23 |      6 | 26 | 0.000485 |  0.000485 |   1.761905 |      nan |       nan
+[CLEANUP] Final GC cycle completed safely.

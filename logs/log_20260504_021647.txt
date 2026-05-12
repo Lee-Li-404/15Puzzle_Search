@@ -1,0 +1,27 @@
+[Bootstrap] island=0 v=0 score=1.0000 exp=1.00 cost=1.00 valid=True -> generated_programs/generated_program_0_0.py
+[Bootstrap] island=0 v=1 score=1.0000 exp=1.00 cost=1.00 valid=True -> generated_programs/generated_program_0_1.py
+[Bootstrap] island=1 v=0 score=1.0000 exp=1.00 cost=1.00 valid=True -> generated_programs/generated_program_1_0.py
+[Bootstrap] island=1 v=1 score=1.0000 exp=1.00 cost=1.00 valid=True -> generated_programs/generated_program_1_1.py
+[Bootstrap] island=2 v=0 score=1.0000 exp=1.00 cost=1.00 valid=True -> generated_programs/generated_program_2_0.py
+[Bootstrap] island=2 v=1 score=1.0000 exp=1.00 cost=1.00 valid=True -> generated_programs/generated_program_2_1.py
+[Bootstrap] island=3 v=0 score=1.0000 exp=1.00 cost=1.00 valid=True -> generated_programs/generated_program_3_0.py
+[Bootstrap] island=3 v=1 score=1.0000 exp=1.00 cost=1.00 valid=True -> generated_programs/generated_program_3_1.py
+[WARN] island 2 v2 gen failed: evaluate_file() missing 2 required positional arguments: 'CTX' and 'cost_bound'
+[Island 2 | v2] exp=999.0000 cost=999.0000 valid=False
+[WARN] island 0 v2 gen failed: evaluate_file() missing 2 required positional arguments: 'CTX' and 'cost_bound'
+[Island 0 | v2] exp=999.0000 cost=999.0000 valid=False
+[WARN] strict JSON parse failed: Unterminated string starting at: line 2 column 11 (char 12)
+[WARN] no def heuristic found
+[WARN] no usable code found in model text head: {
+  "code": "from fifteen_state_class import State\n\ndef heuristic(s: State) -> int:\n    tiles = s.tiles\n    dist = 0\n\n    # Precompute goal positions for O(1) lookup\n    GOAL_POS = [\n        (...
+[WARN] model error: invalid payload
+[WARN] strict JSON parse failed: Expecting ',' delimiter: line 2 column 2240 (char 2241)
+[WARN] unparsable code skipped: invalid character '≤' (U+2264) (<unknown>, line 2)
+[WARN] no usable code found in model text head: {
+  "code": "from fifteen_state_class import State\n\ndef heuristic(s: State) -> int:\n    tiles = s.tiles\n    dist = 0\n\n    # Precomputed Manhattan distances for efficiency\n    # MANHATTAN_TABLE[...
+[WARN] model error: invalid payload
+[WARN] strict JSON parse failed: Unterminated string starting at: line 2 column 11 (char 12)
+[WARN] no def heuristic found
+[WARN] no usable code found in model text head: {
+  "code": "from fifteen_state_class import State\n\ndef heuristic(s: State) -> int:\n    tiles = s.tiles\n    dist = 0\n\n    # Precomputed Manhattan distances for efficiency\n    MANHATTAN_TABLE = ...
+[WARN] model error: invalid payload
