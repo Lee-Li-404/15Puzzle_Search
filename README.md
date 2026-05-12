@@ -4,7 +4,7 @@
 
 ```bash
 git clone https://github.com/Lee-Li-404/15Puzzle_Search.git
-cd 15puzzle_clean
+cd 15Puzzle_Search
 ```
 
 ## 1. Install Dependencies
