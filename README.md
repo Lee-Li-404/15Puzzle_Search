@@ -3,7 +3,7 @@
 ## 0. Clone the Repository
 
 ```bash
-git clone https://github.com/your-repo/15puzzle_clean.git
+git clone [https://github.com/your-repo/15puzzle_clean.git](https://github.com/Lee-Li-404/15Puzzle_Search.git)
 cd 15puzzle_clean
 ```
 
