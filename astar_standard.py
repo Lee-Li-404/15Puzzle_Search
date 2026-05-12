@@ -63,8 +63,9 @@ def astar(start_state, heuristic):
     while open_list:
         _, _, current = heapq.heappop(open_list)
        
-        # if current in closed:   # lazy-deletion guard
-        #     continue
+        # lazy-deletion guard: if the current state has already been expanded (is in closed), skip it
+        if current in closed:   # lazy-deletion guard 
+            continue
 
         expanded += 1
 
