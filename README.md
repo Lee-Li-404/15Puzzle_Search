@@ -284,7 +284,7 @@ After all rounds complete, the program:
 
 ## A\* Implementations
 
-There are three A\* implementations in this repo. They are functionally equivalent in terms of the solutions they find, but differ in how they count **generated nodes**. This distinction matters because generated node count is the primary metric used throughout the project.
+There are two A\* implementations in this repo. They are functionally equivalent in terms of the solutions they find, but differ in how they count **generated nodes**. This distinction matters because generated node count is the primary metric used throughout the project.
 
 ---
 
