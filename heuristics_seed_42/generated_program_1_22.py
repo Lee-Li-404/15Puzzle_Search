@@ -1,5 +1,4 @@
 from fifteen_state_class import State
-#    train nodes:  0.001383 | train worst cost:  1.218750 | test nodes:  0.000871 | test worst cost:  1.218182
 #    set cost bound during training: 1.25
 def heuristic(s: State) -> int:
     if not hasattr(heuristic, "lookup"):

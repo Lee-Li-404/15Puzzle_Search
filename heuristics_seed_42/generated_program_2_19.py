@@ -1,5 +1,4 @@
 from fifteen_state_class import State
-#   22 |      2 | 19 | 0.000405 |  0.000405 |   1.523810 | 0.000220 |  1.600000
 
 def heuristic(s: State) -> int:
     # Initialize static lookup table on first call

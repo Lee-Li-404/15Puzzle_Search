@@ -1,6 +1,4 @@
 from fifteen_state_class import State
-#   23 |      0 | 18 | 0.002378 |  0.002378 |   1.142857 |      nan |       nan
-#[EVAL] avg_generated_ratio=0.00131486, max_cost_ratio=1.23529412
 #1.15
 def heuristic(s: State) -> int:
     if not hasattr(heuristic, "tbl"):

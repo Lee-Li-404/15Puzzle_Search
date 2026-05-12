@@ -1,5 +1,4 @@
 from fifteen_state_class import State
-#   23 |      4 | 26 | 0.000309 |  0.000309 |   1.571429 | 0.000235 |  1.807018
 
 def heuristic(s: State) -> int:
     if not hasattr(heuristic, "costs"):

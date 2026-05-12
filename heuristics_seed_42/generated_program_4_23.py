@@ -1,5 +1,4 @@
 from fifteen_state_class import State
-#    23 |      4 | 23 | 0.001049 |  0.001049 |   1.285714 | 0.000551 |  1.346154  
 #1.35
 def heuristic(s: State) -> int:
     """An enhanced heuristic combining Manhattan distance, weighted linear conflicts,

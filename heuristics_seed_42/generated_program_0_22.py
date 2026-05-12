@@ -1,6 +1,4 @@
 from fifteen_state_class import State
-
-#  train nodes:  0.000435 | train worst cost:  1.448980 | test nodes:  0.000362 | test worst cost:  1.566038
 #  set cost bound during training: 1.45  
 def heuristic(s: State) -> int:
     """

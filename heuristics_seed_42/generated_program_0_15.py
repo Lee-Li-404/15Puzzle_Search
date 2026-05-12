@@ -1,5 +1,4 @@
 from fifteen_state_class import State
-#   23 |      0 | 15 | 0.000369 |  0.000369 |   1.560000 | 0.000302 |  1.705882
 # 1.75
 def heuristic(s: State) -> int:
     """
