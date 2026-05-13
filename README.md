@@ -564,7 +564,7 @@ Weighted A\* implementation using the Manhattan Distance + Linear Conflict heuri
 
 ## `generated_programs`
 
-This folder stores all heuristic programs used and generated during the FunSearch process for the 15-puzzle experiments.
+This folder stores all heuristic programs used and generated during the h_search process for the 15-puzzle experiments.
 
 ## Initial Bootstrap Heuristics
 
