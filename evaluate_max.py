@@ -1,4 +1,6 @@
 from fifteen_state_class import State
+
+# Using standard version of A* implementation for evaluation to ensure consistency in generated node counting.
 from astar_standard import astar
 
 # example heuristic for testing

@@ -13,6 +13,11 @@ Priority: it is determined first by f(s) = g(s) + h(s), then by the order of ins
 Duplication Detection: Done by __eq__ function in fifteen_state_class.py
 '''
 
+'''
+In this version, the generated nodes are defined to be nodes that are actually inserted into the OPEN list for the first time.
+'''
+
+
 def astar(start_state, heuristic):
     open_list = []
     counter = itertools.count()

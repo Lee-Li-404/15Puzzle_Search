@@ -7,6 +7,7 @@ import time
 import asyncio
 from utils import try_extract_heuristic
 
+# maximum allowed characters for the heuristic code to prevent model from returning excessively long responses
 MAX_CODE_CHARS = 200_000
 
 '''
@@ -69,7 +70,7 @@ def model_generate(prompt: str, client) -> str:
     backoff = 0.6
     # For diversity and robustness, we can randomize model order and retry on failures with exponential backoff.
     # For instance, if models = ["gemini-2.5-pro", "gemini-2.5-flash", "gemini-2.5-pro"], we have 1/3 chance to pick gemini-2.5-flash and 2/3 chance to pick gemini-2.5-pro on each try
-    # A list of all Gemini models: https://ai.google.dev/gemini-api/docs/models
+    # A list of all Gemini models can be found here: https://ai.google.dev/gemini-api/docs/models
     models = ["gemini-2.5-pro","gemini-2.5-flash","gemini-2.5-flash-lite"]
     random.shuffle(models)
     

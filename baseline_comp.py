@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 import sampler 
 
 from fifteen_state_class import State
+
+# We will use the same A* implementation for both LLM and WA heuristics to ensure a fair comparison.
 from astar_standard import astar
 
 # ===== LLM heuristics =====

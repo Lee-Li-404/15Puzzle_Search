@@ -18,7 +18,7 @@ def _write_pairs(output_file: str, pairs: List[Tuple[str, str]]) -> None:
             f.write(line1 + "\n")
             f.write(line2 + "\n")
 
-
+# Not used in current pipeline, but kept for potential debugging use
 def sample_15_puzzle_instances(
     input_file: str,
     output_file: str,
@@ -35,6 +35,7 @@ def sample_15_puzzle_instances(
     rng = random.Random(seed)
     sampled = rng.sample(pairs, num_samples)
     _write_pairs(output_file, sampled)
+
 
 
 def split_train_test(

@@ -34,6 +34,7 @@ def build_best_shot_prompt(
         high_score = float("inf")
         high_meta = {"generated_ratio": 1.0, "cost_ratio": 1.0}
 
+    # Prompt Template
     header = (
         "You are an expert in combinatorial optimization and heuristic search algorithms.\n"
         "You are evolving a heuristic function for solving the 15 Puzzle (4×4 sliding tile puzzle) using A* search.\n"

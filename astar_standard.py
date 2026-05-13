@@ -4,9 +4,7 @@ import itertools
 
 
 '''
-Definitions of "generated" in A* search can vary in the literature, but generally it refers to the 
-number of unique states that have been created and added to the OPEN list during the search process. 
-This includes all states that have been generated as successors of expanded nodes
+Definitions of "generated" in A* search can vary in the literature, here are a few examples from well-known sources:
 
 Artificial Intelligence: A Modern Approach (3rd Edition) by Stuart Russell and Peter Norvig
 This is done by EXPANDING the current state; that is, applying the successor function to the current state,
