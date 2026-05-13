@@ -1,3 +1,7 @@
+# 15Puzzle_Search
+
+This repo implements an LLM-driven evolutionary search (FunSearch-style) that discovers heuristic functions for Korf's 100 15-puzzle benchmark instances. Generated heuristics are scored by how many nodes A\* expands relative to Korf's IDA\* baseline, subject to a user-set cost bound on solution quality. The two main entry points are `h_search.py` (run the evolutionary search) and `baseline_comp.py` (compare the 7 pre-generated heuristics in `heuristics_seed_42/` against a Weighted A\* + MDLC baseline sweep).
+
 # How to Run h_search.py
 
 ## 0. Clone the Repository
