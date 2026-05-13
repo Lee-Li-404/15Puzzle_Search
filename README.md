@@ -88,7 +88,7 @@ This will:
 
 Note that the results produced by this script may not look exactly the same as the diagrams in the manuscript. The codebase has since moved to `astar_standard.py` as a more standard and correct implementation of generated node counting. The results are similar overall, but the new counting may not perform as strongly as the previous implementation, particularly at looser cost bounds. For more details on the different definitions of generated nodes and how each implementation counts them, see the A\* implementation descriptions in the Code File Description section below.
 
-Runtime and generated nodes are computed in real time during the script. For more accurate timing averages, change the repeat count from `1` to `5` (or any number) at lines 121 and 127 — the script will run each heuristic multiple times and report the average.
+Runtime and generated nodes are computed in real time during the script. For more accurate timing averages, change the repeat count from `1` to `5` (or any number) at lines 130 and 136 — the script will run each heuristic multiple times and report the average.
 
 ---
 
