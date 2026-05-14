@@ -1,5 +1,5 @@
 from fifteen_state_class import State
-
+#1.65
 def heuristic(s: State) -> int:
     if not hasattr(heuristic, "costs"):
         # Precompute cost table: Weighted Manhattan + Quadratic Penalty

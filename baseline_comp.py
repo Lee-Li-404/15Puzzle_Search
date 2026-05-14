@@ -6,7 +6,7 @@ import sampler
 from fifteen_state_class import State
 
 # We will use the same A* implementation for both LLM and WA heuristics to ensure a fair comparison.
-from astar_standard import astar
+from astar_unique_nodes import astar
 
 # ===== LLM heuristics =====
 from heuristics_seed_42.generated_program_0_18 import heuristic as h17

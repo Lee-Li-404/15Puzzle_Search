@@ -1,5 +1,5 @@
 from fifteen_state_class import State
-#  set cost bound during training: 1.45  
+#  1.45  
 def heuristic(s: State) -> int:
     """
     An aggressive, inadmissible heuristic designed to significantly reduce the number of generated nodes.
