@@ -1,3 +1,7 @@
+# 15Puzzle_Search
+
+This repo implements an LLM-driven evolutionary search (FunSearch-style) that discovers heuristic functions for Korf's 100 15-puzzle benchmark instances. Generated heuristics are scored by how many nodes A\* generates relative to Korf's IDA\* baseline, subject to a user-set cost bound on solution quality. The two main entry points are `h_search.py` (run the evolutionary search) and `baseline_comp.py` (compare the 7 pre-generated heuristics in `heuristics_seed_42/` against a Weighted A\* + MDLC baseline sweep).
+
 # How to Run h_search.py
 
 ## 0. Clone the Repository
@@ -88,7 +92,7 @@ This will:
 
 Note that the results produced by this script may not look exactly the same as the diagrams in the manuscript. The codebase has since moved to `astar_standard.py` as a more standard and correct implementation of generated node counting. The results are similar overall, but the new counting may not perform as strongly as the previous implementation, particularly at looser cost bounds. For more details on the different definitions of generated nodes and how each implementation counts them, see the A\* implementation descriptions in the Code File Description section below.
 
-Runtime and generated nodes are computed in real time during the script. For more accurate timing averages, change the repeat count from `1` to `5` (or any number) at lines 121 and 127 — the script will run each heuristic multiple times and report the average.
+Runtime and generated nodes are computed in real time during the script. For more accurate timing averages, change the repeat count from `1` to `5` (or any number) at lines 130 and 136 — the script will run each heuristic multiple times and report the average.
 
 ---
 
@@ -564,7 +568,7 @@ Weighted A\* implementation using the Manhattan Distance + Linear Conflict heuri
 
 ## `generated_programs`
 
-This folder stores all heuristic programs used and generated during the FunSearch process for the 15-puzzle experiments.
+This folder stores all heuristic programs used and generated during the h_search process for the 15-puzzle experiments.
 
 ## Initial Bootstrap Heuristics
 
